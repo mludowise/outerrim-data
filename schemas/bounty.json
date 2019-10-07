@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "job.json#",
+  "title": "Schema for cargo cards",
+  "type": "object",
+  "properties": {
+    "contact": {
+      "description": "The name of the contact this bounty is for.",
+      "type": "string",
+      "minLength": 1
+    },
+    "combat": {
+      "description": "The bounty's ground combat value.",
+      "$ref": "definitions.json#/definitions/ground_combat"
+    },
+    "elimination_reward": {
+      "description": "The reward for this bounty's elimination, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "capture_reward": {
+      "description": "The reward for this bounty's capture, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "capture_destination": {
+      "description": "The destination planet for this bounty's capture.",
+      "$ref": "definitions.json#/definitions/planet"
+    },
+    "notes": {
+      "description": "Additional notes, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    }
+  },
+  "required": [
+    "contact",
+    "combat",
+    "elimination_reward",
+    "capture_reward",
+    "capture_destination",
+    "notes"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "jobs.json#",
+  "title": "Schema for job cards",
+  "definitions": { },
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "number": {
+        "description": "The number of this card.",
+        "type": "integer",
+        "minimum": 1
+      },
+      "starting_planet": {
+        "description": "If this is a setup card for a character, that character's starting planet.",
+        "$ref": "definitions.json#/definitions/planet"
+      },
+      "job": {
+        "$ref": "job.json"
+      },
+      "cargo": {
+        "$ref": "cargo.json"
+      },
+      "bounty": {
+        "$ref": "bounty.json"
+      },
+      "job_encounter": {
+        "$ref": "job_encounter.json"
+      },
+      "job_resolution": {
+        "$ref": "job_resolution.json"
+      },
+      "contact": {
+        "$ref": "contact.json"
+      },
+      "cargo_delivery": {
+        "$ref": "cargo_delivery.json"
+      }
+    },
+    "additionalProperties": false,
+    "allOf": [
+      {
+        "required": ["number"]
+      },
+      {
+        "oneOf": [
+          {
+            "required": ["job"]
+          },
+          {
+            "required": ["cargo"]
+          },
+          {
+            "required": ["bounty"]
+          },
+          {
+            "required": ["job_encounter"]
+          },
+          {
+            "required": ["job_resolution"]
+          },
+          {
+            "required": ["contact"]
+          },
+          {
+            "required": ["cargo_delivery"]
+          }
+        ]
+      }
+    ]
+  }
+}

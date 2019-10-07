@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Boba Fett",
+    "combat": 3,
+    "health": 4,
+    "skills": [
+      "Stealth",
+      "Tactics"
+    ],
+    "personal_goal": "Gain rewards from 2 bounties to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "action": "Secretly look at 1 contact on your planet."
+    },
+    "locked_abilities": {
+      "ability": "After you eliminate a contact for a bounty instead of capturing it, gain [Credits]5,000."
+    },
+    "setup_card": 90,
+    "setup_reputation": [
+      {
+        "reputation": "Positive",
+        "faction": "Hutt"
+      }
+    ]
+  },
+  {
+    "name": "Bossk",
+    "combat": 3,
+    "health": 4,
+    "skills": [
+      "Stealth",
+      "Tactics"
+    ],
+    "personal_goal": "Have at least 1 mod and 2 gear with a combined cost of at least [Credits]15,000 to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "action": "Recover 2 damage from your character and 2 damage from your ship."
+    },
+    "locked_abilities": {
+      "encounter": "Fight a combat against a player in your space who has more fame than you. If you win, gain 1 fame."
+    },
+    "setup_card": 90,
+    "setup_reputation": [
+      {
+        "reputation": "Positive",
+        "faction": "Hutt"
+      }
+    ]
+  },
+  {
+    "name": "Doctor Aphra",
+    "combat": 2,
+    "health": 4,
+    "skills": [
+      "Knowledge",
+      "Stealth",
+      "Tech"
+    ],
+    "personal_goal": "Complete 2 jobs to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "ability": "Once per turn, before you perform a skill test, you may gain a skill of your choice for that test."
+    },
+    "locked_abilities": {
+      "planning": "If you are on a planet or navpoint, perform a market action. This does not prevent you from performing a market action during your action step."
+    },
+    "setup_card": 92,
+    "setup_reputation": [
+      {
+        "reputation": "Positive",
+        "faction": "Imperial"
+      }
+    ]
+  },
+  {
+    "name": "Han Solo",
+    "combat": 3,
+    "health": 4,
+    "skills": [
+      "Piloting",
+      "Tech"
+    ],
+    "personal_goal": "Have a ship with a cost of at least [Credits]15,000 to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "ability": "Gain +2 [Hyperdrive]"
+    },
+    "locked_abilities": {
+      "ability": "When you move into a patrol's space, you may test Piloting. If you pass, you do not have to end your movement in that space."
+    },
+    "setup_card": 91,
+    "setup_reputation": [
+      {
+        "reputation": "Negative",
+        "faction": "Hutt"
+      }
+    ]
+  },
+  {
+    "name": "Lando Calrissian",
+    "combat": 2,
+    "health": 4,
+    "skills": [
+      "Influence",
+      "Knowledge",
+      "Piloting"
+    ],
+    "personal_goal": "Deliver 2 <b>ILLEGAL</b> cargo to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "ability": "After you roll dice (for any reason), you may reroll 1 of your dice."
+    },
+    "locked_abilities": {
+      "action": "If you are on a planet, you may spend [Credits]1,000 to test Influence. If you pass, gain 1 reputation with the planet's faction."
+    },
+    "setup_card": 91,
+    "setup_reputation": [
+      {
+        "reputation": "Positive",
+        "faction": "?"
+      }
+    ]
+  },
+  {
+    "name": "Jyn Erso",
+    "combat": 3,
+    "health": 4,
+    "skills": [
+      "Influence",
+      "Tactics"
+    ],
+    "personal_goal": "Have a damage token on 2 Imperial planets to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "ability": "Once per turn, during combat or a skill test, you may turn 1 of your [Focus] resutls to a [Crit]."
+    },
+    "unlocked_abilities": {
+      "action": "If you are on an Imperial planet, test Stealth. If you pass, place 1 damage token on your planet."
+    },
+    "locked_abilities": {
+      "ability": "When a patrol within 3 spaces of you would move during your market action, you may move the patrol toward another player instead of toward you."
+    },
+    "setup_card": 92,
+    "setup_reputation": [
+      {
+        "reputation": "Negative",
+        "faction": "Imperial"
+      }
+    ]
+  },
+  {
+    "name": "IG-88 [Droid]",
+    "combat": 3,
+    "health": 4,
+    "skills": [
+      "Strength",
+      "Tech"
+    ],
+    "personal_goal": "Have 2 droid ([Droid]) crew to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "ability": "Once per combat, you may reroll any number of your dice."
+    },
+    "unlocked_abilities": {
+      "action": "Take a droid ([Droid]) crew from another player in your space."
+    },
+    "locked_abilities": {
+      "ability": "When you would become defeated, you may discard 1 of your crew to recover all damage from your character and ship instead. (Place the crew's contact token on the nearest empty contact space.)"
+    },
+    "setup_card": 90
+  },
+  {
+    "name": "Ketsu Onyo",
+    "combat": 3,
+    "health": 4,
+    "skills": [
+      "Stealth",
+      "Strength"
+    ],
+    "personal_goal": "Win 3 combats to gain 1 fame and flip this card.",
+    "given_abilities": {
+      "encounter": "Encounter a patrol or contact token that is within 3 spaces of you."
+    },
+    "locked_abilities": {
+      "ability": "After you win a combat, gain [Credits]4,000."
+    },
+    "setup_card": 90,
+    "setup_reputation": [
+      {
+        "reputation": "Positive",
+        "faction": "Syndicate"
+      }
+    ]
+  }
+ ]

@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "character_cards.json#",
+  "title": "Schema for character cards",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "$ref": "definitions.json#/definitions/icon_containing_text",
+        "description": "The character's name, as written on the card itself."
+      },
+      "combat": {
+        "description": "The character's ground combat value.",
+        "$ref": "definitions.json#/definitions/ground_combat"
+      },
+      "health": {
+        "type": "integer",
+        "description": "The character's health value.",
+        "minimum": 0,
+        "maximum": 9
+      },
+      "skills": {
+        "type": "array",
+        "description": "The character's skills.",
+        "items": {
+          "$ref": "definitions.json#/definitions/skills"
+        }
+      },
+      "personal_goal": {
+        "$ref": "definitions.json#/definitions/icon_containing_text",
+        "description": "The personal goal for this character, as written on the card itself."
+      },
+      "given_abilities": {
+        "description": "The abilities this character always has access to.",
+        "$ref": "definitions.json#/definitions/abilities"
+      },
+      "unlocked_abilities": {
+        "description": "The abilities this character has before activating their personal goal.",
+        "$ref": "definitions.json#/definitions/abilities"
+      },
+      "locked_abilities": {
+        "description": "The abilities this character gains access to when achieving their personal goal.",
+        "$ref": "definitions.json#/definitions/abilities"
+      },
+      "setup_card": {
+        "type": "integer",
+        "description": "The setup card for this character.",
+        "minimum": 1
+      },
+      "setup_reputation": {
+        "type": "array",
+        "description": "The starting reputations for this character. Any unspecified factions will start with neutral.",
+        "uniqueItems": true,
+        "items": {
+          "description": "A starting reputation for this character.",
+          "type": "object",
+          "properties": {
+            "reputation": {
+              "$ref": "definitions.json#/definitions/reputation"
+            },
+            "faction": {
+              "anyOf": [
+                {
+                  "$ref": "definitions.json#/definitions/faction"
+                },
+                {
+                  "type": "string",
+                  "description": "Having a '?' as a faction means it can be a faction of the player's choice.",
+                  "pattern": "^\\?$",
+                  "minLength": 1,
+                  "maxLength": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "name",
+      "combat",
+      "health",
+      "skills",
+      "personal_goal",
+      "given_abilities",
+      "locked_abilities",
+      "setup_card"
+    ],
+    "additionalProperties": false
+  }
+}

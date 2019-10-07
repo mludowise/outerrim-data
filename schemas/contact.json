@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "contact.json#",
+  "title": "Schema for contact cards",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Name of this contact, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "token_color": {
+      "description": "Color of this contact's token.",
+      "$ref": "definitions.json#/definitions/contact_token_color"
+    },
+    "encounter_description": {
+      "description": "The description of this encounter, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "encounter_instructions": {
+      "description": "The instructions for this encounter, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "crew": {
+      "description": "If this contact can be added as crew, their crew abilities.",
+      "$ref": "crew.json"
+    },
+    "character_complement": {
+      "description": "Name of a character can get this crew member for free, if there is one.",
+      "type": "string",
+      "minLength": 1
+    },
+    "job": {
+      "$ref": "job.json"
+    }
+  },
+  "dependencies": {
+    "character_complement": ["crew"]
+  },
+  "required": [
+    "name",
+    "token_color",
+    "encounter_description",
+    "encounter_instructions"
+  ],
+  "additionalProperties": false
+}

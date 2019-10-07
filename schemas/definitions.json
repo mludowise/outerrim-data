@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "definitions.json#",
+  "title": "Schema for common fields in data files",
+  "definitions": {
+    "abilities": {
+      "type": "object",
+      "description": "Character abilities",
+      "properties": {
+        "ability": {
+          "$ref": "definitions.json#/definitions/icon_containing_text",
+          "description": "Character's ability, as written on the card itself."
+        },
+        "action": {
+          "$ref": "definitions.json#/definitions/icon_containing_text",
+          "description": "Action ability for this character, as written on the card itself."
+        },
+        "encounter": {
+          "$ref": "definitions.json#/definitions/icon_containing_text",
+          "description": "Encounter ability for this character, as written on the card itself."
+        },
+        "planning": {
+          "$ref": "definitions.json#/definitions/icon_containing_text",
+          "description": "Planning ability for this character, as written on the card itself."
+        }
+      },
+      "oneOf": [
+        {
+          "required": ["ability"]
+        },
+        {
+          "required": ["action"]
+        },
+        {
+          "required": ["encounter"]
+        },
+        {
+          "required": ["planning"]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "ground_combat": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9
+    },
+    "dice_result": {
+      "type": "enum",
+      "description": "A possible dice result.",
+      "enum": [
+        "Hit",
+        "Crit",
+        "Focus",
+        "Blank"
+      ]
+    },
+    "contact_token_color": {
+      "description": "Color of a contact token.",
+      "type": "string",
+      "enum": [
+        "yellow",
+        "green",
+        "white"
+      ]
+    },
+    "faction": {
+      "type": "string",
+      "description": "A faction in the game.",
+      "enum": [
+        "Hutt",
+        "Imperial",
+        "Rebel",
+        "Syndicate"
+      ]
+    },
+    "reputation": {
+      "type": "string",
+      "description": "Represents reputation with a faction in the game.",
+      "enum": [
+        "Positive",
+        "Neutral",
+        "Negative"
+      ]
+    },
+    "skills": {
+      "type": "string",
+      "description": "A skill in the game.",
+      "enum": [
+        "Influence",
+        "Knowledge",
+        "Piloting",
+        "Stealth",
+        "Strength",
+        "Tactics",
+        "Tech"
+      ]
+    },
+    "icon_containing_text": {
+      "type": "string",
+      "description": "Represents text printed on a card that may contain an icon.",
+      "pattern": "^([^\\[^\\]]*|\\[(Hit|Crit|Focus|Positive|Neutral|Negative|Credits|Fame|Ground Combat Value|Health|Ship Combat Value|Hull|Hyperdrive|Droid)\\])*$",
+      "minLength": 1
+    },
+    "planet": {
+      "type": "string",
+      "description": "A planet in the game.",
+      "enum": [
+        "Cantonica",
+        "Ord Mantell",
+        "Lothal",
+        "Mon Calimari",
+        "Kessel",
+        "Nal Hutta",
+        "Tatooine",
+        "The Ring of Kafrene",
+        "Ryloth",
+        "Naboo",
+        "Takodana"
+      ]
+    }
+  }
+}

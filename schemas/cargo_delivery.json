@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "cargo_delivery.json#",
+  "title": "Schema for patrol encounter cards",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Name of the encounter, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "instructions": {
+      "description": "Instructions, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "resolutions": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "dice_result": {
+            "description": "The dice result that triggers this resolution.",
+            "$ref": "definitions.json#/definitions/dice_result"
+          },
+          "description": {
+            "description": "The description of the this resolution, as written on on the card itself.",
+            "type": "string",
+            "minLength": 1
+          },
+          "instructions": {
+            "description": "The instructions of this resolution, as written on the card itself.",
+            "$ref": "definitions.json#/definitions/icon_containing_text"
+          }
+        },
+        "required": [
+          "dice_result",
+          "description",
+          "instructions"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "name",
+    "instructions",
+    "resolutions"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "jobs.json#",
+  "title": "Schema for job cards",
+  "type": "object",
+  "definitions": {
+    "job_skill": {
+      "anyOf": [
+        {
+          "$ref": "definitions.json#/definitions/skills"
+        },
+        {
+          "enum": [
+            "Ship Combat",
+            "Ground Combat"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "allOf": {
+          "description": "If all of these skills are required to complete the job.",
+          "type": "array",
+          "items": {
+            "properties": {
+              "skill": {
+                "$ref": "#/definitions/job_skill"
+              },
+              "required": {
+                "description": "If this skill is required to complete the job as opposed to there being a possibility it may not be needed.",
+                "type": "boolean",
+                "default": "true"
+              }
+            },
+            "required": ["skill", "required"],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "oneOf": {
+          "description": "If one of these skills are required to complete the job.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/job_skill"
+          },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false,
+      "minProperties": 1,
+      "maxProperties": 1
+    },
+    "job_destination": {
+      "anyOf": [
+        {
+          "$ref": "definitions.json#/definitions/planet"
+        },
+        {
+          "type": "string",
+          "pattern": "The (Imperial|Rebel|Hutt|Syndicate) Patrol's space."
+        }
+      ]
+    }
+  },
+  "properties": {
+    "skills": {
+      "description": "Skills required for this job.",
+      "$ref": "#/definitions/skills"
+    },
+    "name": {
+      "description": "Name of the job, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "description": "Description of this job, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "destination": {
+      "description": "The destination of this job.",
+      "$ref": "#/definitions/job_destination"
+    },
+    "encounter": {
+      "description": "The encounter for this job, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "reward": {
+      "description": "The reward for this job, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    }
+  },
+  "required": [
+    "name",
+    "skills",
+    "destination",
+    "reward"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+- Resolving a job - lookup the card to resolve that job
+- Lookup contacts by color / skill
+- Lookup color for contact
+- List of jobs/bounties by destination to find jobs on the way from A to B
+
+- Replacement for cards in game
+  - e.g. roll dice for failure scenario in illegal cargo and want to have app randomly pick 1/4 possible cards with that number
+
+
