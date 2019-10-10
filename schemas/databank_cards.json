@@ -6,68 +6,83 @@
   "type": "array",
   "items": {
     "type": "object",
-    "properties": {
-      "number": {
-        "description": "The number of this card.",
-        "type": "integer",
-        "minimum": 1
-      },
-      "starting_planet": {
-        "description": "If this is a setup card for a character, that character's starting planet.",
-        "$ref": "definitions.json#/definitions/planet"
-      },
-      "job": {
-        "$ref": "job.json"
-      },
-      "cargo": {
-        "$ref": "cargo.json"
-      },
-      "bounty": {
-        "$ref": "bounty.json"
-      },
-      "job_encounter": {
-        "$ref": "job_encounter.json"
-      },
-      "job_resolution": {
-        "$ref": "job_resolution.json"
-      },
-      "contact": {
-        "$ref": "contact.json"
-      },
-      "cargo_delivery": {
-        "$ref": "cargo_delivery.json"
-      }
-    },
-    "additionalProperties": false,
     "allOf": [
       {
-        "required": ["number"]
+        "properties": {
+          "number": {
+            "description": "The number of this card.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "starting_planet": {
+            "description": "If this is a setup card for a character, that character's starting planet.",
+            "$ref": "definitions.json#/definitions/planet"
+          }
+        }
       },
       {
         "oneOf": [
           {
+            "properties": {
+              "job": {
+                "$ref": "job.json"
+              }
+            },
             "required": ["job"]
           },
           {
+            "properties": {
+              "cargo": {
+                "$ref": "cargo.json"
+              }
+            },
             "required": ["cargo"]
           },
           {
+            "properties": {
+              "bounty": {
+                "$ref": "bounty.json"
+              }
+            },
             "required": ["bounty"]
           },
           {
+            "properties": {
+              "job_encounter": {
+                "$ref": "job_encounter.json"
+              }
+            },
             "required": ["job_encounter"]
           },
           {
+            "properties": {
+              "job_resolution": {
+                "$ref": "job_resolution.json"
+              }
+            },
             "required": ["job_resolution"]
           },
           {
+            "properties": {
+              "contact": {
+                "$ref": "contact.json"
+              }
+            },
             "required": ["contact"]
           },
           {
-            "required": ["cargo_delivery"]
+            "properties": {
+              "cargo_delivery": {
+                "$ref": "cargo_delivery.json"
+              }
+            }
           }
         ]
       }
+    ],
+    "additionalProperties": false,
+    "required": [
+      "number"
     ]
   }
 }
