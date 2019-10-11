@@ -9,6 +9,10 @@
       "type": "string",
       "minLength": 1
     },
+    "description": {
+      "description": "Description of the cargo, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
     "destination": {
       "description": "The destination of this cargo.",
       "$ref": "definitions.json#/definitions/planet"
@@ -16,6 +20,15 @@
     "reward": {
       "description": "The reward for this cargo, as written on the card itself.",
       "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "action": {
+      "description": "Action, if there is one, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "is_illegal": {
+      "description": "If this cargo is illegal.",
+      "type": "boolean",
+      "default": false
     }
   },
   "required": [

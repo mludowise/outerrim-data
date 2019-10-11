@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "cargo_market_cards.json#",
+  "title": "Schema for cargo market cards",
+  "definitions": {
+    "patrol_movement": {
+      "description": "Describes the patrol movement, if there is one.",
+      "type": "object",
+      "properties": {
+        "faction": {
+          "$ref": "definitions.json#/definitions/faction"
+        },
+        "spaces": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "faction",
+        "spaces"
+      ]
+    },
+    "market_card": {
+      "description": "A market card in the game.",
+      "type": "object",
+       "allOf": [
+        {
+          "properties": {
+            "price": {
+              "description": "Price of the market card.",
+              "type": "integer",
+              "minimum": 0
+            },
+            "patrol_movement": {
+              "$ref": "#/definitions/patrol_movement"
+            },
+            "cargo": {
+              "$ref": "cargo.json"
+            }
+          },
+          "required": [
+            "price"
+          ]
+        },
+        {
+          "oneOf": [
+            {
+              "properties": {
+                "job": {
+                  "$ref": "job.json"
+                }
+              },
+              "required": ["job"]
+            },
+            {
+              "properties": {
+                "cargo": {
+                  "$ref": "cargo.json"
+                }
+              },
+              "required": ["cargo"]
+            },
+            {
+              "properties": {
+                "bounty": {
+                  "$ref": "bounty.json"
+                }
+              },
+              "required": ["bounty"]
+            },
+            {
+              "properties": {
+                "contact": {
+                  "$ref": "contact.json"
+                }
+              },
+              "required": ["contact"]
+            },
+            {
+              "properties": {
+                "mod": {
+                  "$ref": "mod.json"
+                }
+              },
+              "required": ["mod"]
+            }
+          ]
+        }
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/market_card"
+  }
+}

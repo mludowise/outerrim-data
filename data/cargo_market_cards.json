@@ -1,0 +1,127 @@
+[
+  {
+    "price": 1000,
+    "cargo": {
+      "name": "Bacta Supplies",
+      "description": "Cannot buy on Takodana",
+      "destination": "Takodana",
+      "reward": "Gain [Credits]6,000.",
+      "action": "If you are not a droid ([Droid]), discard this card to recover all damage from your character."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 1000,
+    "cargo": {
+      "name": "Coaxium Crystal",
+      "description": "Cannot buy on Ryloth.",
+      "destination": "Ryloth",
+      "reward": "Gain [Credits]5,000 and 1 Imperial Reputation."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 1000,
+    "cargo": {
+      "name": "Droid Parts",
+      "description": "Cannot buy on Ord Mantell.",
+      "destination": "Ord Mantell",
+      "reward": "Gain [Credits]5,000 and 1 Syndicate reputation."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 1000,
+    "cargo": {
+      "name": "Food Supplies",
+      "description": "Cannot buy on Nal Hutta.",
+      "destination": "Nal Hutta",
+      "reward": "Gain [Credits]5,000 and 1 Hutt reputation."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 1000,
+    "cargo": {
+      "name": "Salvage",
+      "description": "Cannot buy on Mon Calamari.",
+      "destination": "Mon Calimari",
+      "reward": "Gain [Credits]5,000 and 1 Rebel reputation."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 2000,
+    "mod": {
+      "name": "Smuggling Compartment",
+      "description": "Place this card in a cargo slot or mod slot. You can also have 1 cargo in this slot.\nWhen you are rolling a die to deliver <b>ILLEGAL</b> cargo, you may turn a blank result to a [Hit]."
+    }
+  },
+  {
+    "price": 3000,
+    "cargo": {
+      "name": "Stolen Hyperfuel",
+      "description": "Cannot buy on The Ring of Kafrene. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",
+      "destination": "The Ring of Kafrene",
+      "reward": "Gain [Credits]9,000 and 1 fame.",
+      "is_illegal": true
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 2000,
+    "cargo": {
+      "name": "Stolen Prototype",
+      "description": "Cannot buy on Cantonica. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",
+      "destination": "Cantonica",
+      "reward": "Gain [Credits]7,000 and 1 fame.",
+      "is_illegal": true
+    }
+  },
+  {
+    "price": 2000,
+    "cargo": {
+      "name": "Stolen Supplies",
+      "description": "Cannot buy on Kessel. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",
+      "destination": "Kessel",
+      "reward": "Gain [Credits]7,000 and 1 fame.",
+      "is_illegal": true
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 2000,
+    "cargo": {
+      "name": "Stolen Weapons",
+      "description": "Cannot buy on Tatooine. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",
+      "destination": "Tatooine",
+      "reward": "Gain [Credits]7,000 and 1 fame.",
+      "is_illegal": true
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 3
+    }
+  }
+]
