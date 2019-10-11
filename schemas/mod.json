@@ -3,20 +3,16 @@
   "id": "mod.json#",
   "title": "Schema for mod cards",
   "type": "object",
+  "$ref": "definitions.json#/definitions/abilities",
   "properties": {
     "name": {
       "description": "Name of the mod, as written on the card itself.",
       "type": "string",
       "minLength": 1
-    },
-    "description": {
-      "description": "Description of the mod, as written on the card itself.",
-      "$ref": "definitions.json#/definitions/icon_containing_text"
     }
   },
   "required": [
-    "name",
-    "description"
+    "name"
   ],
   "additionalProperties": false
 }

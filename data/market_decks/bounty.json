@@ -1,0 +1,165 @@
+[
+  {
+    "price": 0,
+    "job": {
+      "name": "Wanted",
+      "skills": {
+        "oneOf": [
+          "Ground Combat",
+          "Ship Combat"
+        ]
+      },
+      "description": "You see a familiar name on the bounty board. Their misfortune could literally be your fortune.",
+      "destination": "A space containing another player that has at least 1 [Negative] reputation.",
+      "encounter": "Resolve a combat against that player. If you win, claim this reward.",
+      "reward": "If you won combat against a player who has more fame than you, gain [Credits]5,000 and 2 fame. Otherwise, gain [Credits]5,000 and 1 fame. Then discard this card."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Wanted",
+      "skills": {
+        "oneOf": [
+          "Ground Combat",
+          "Ship Combat"
+        ]
+      },
+      "description": "You see a familiar name on the bounty board. It seems that they have crossed the wrong people.",
+      "destination": "A space containing another player that has at least 1 [Negative] reputation.",
+      "encounter": "Resolve a combat against that player. If you win, claim this reward.",
+      "reward": "If you won combat against a player who has more fame than you, gain [Credits]5,000 and 2 fame. Otherwise, gain [Credits]5,000 and 1 fame. Then discard this card."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "4-LOM",
+      "combat": 4,
+      "elimination_reward": "Gain [Credits]8,000 and 1 fame.",
+      "capture_reward": "Deliver 4-LOM's token to Tatooine to gain [Credits]10,000 and 2 fame.",
+      "capture_destination": "Tatooine",
+      "notes": "After you gain a reward from this card, remove it from the game."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "BoShek",
+      "combat": 4,
+      "elimination_reward": "Gain [Credits]6,000 and 1 fame.",
+      "capture_reward": "Deliver BoShek's token to Nal Hutta to gain [Credits]8,000 and 2 fame.",
+      "capture_destination": "Nal Hutta",
+      "notes": "After you gain a reward from this card, remove it from the game."
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "Chewbacca",
+      "combat": 6,
+      "elimination_reward": "Gain [Credits]8,000 and 2 fame.",
+      "capture_reward": "Deliver Chrewbacca's token to the Ring of Kafrene to gain [Credits]18,000 and 2 fame.",
+      "capture_destination": "The Ring of Kafrene",
+      "notes": "After you gain a reward from this card, remove it from the game."
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "Garindan",
+      "combat": 3,
+      "elimination_reward": "Gain [Credits]6,000 and 1 fame.",
+      "capture_reward": "Deliver Garindan's token to Kessel to gain [Credits]7,000, 2 fame, and 1 Rebel reputation.",
+      "capture_destination": "Kessel",
+      "notes": "After you gain a reward from this card <b>lose 1 Imperial reputation</b> and remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "Greedo",
+      "combat": 4,
+      "elimination_reward": "Gain [Credits]8,000 and 1 fame.",
+      "capture_reward": "Deliver Greedo's token to Ord Mantell to gain [Credits]9,000, 2 fame, and 1 Syndicate reputation.",
+      "capture_destination": "Ord Mantell",
+      "notes": "After you gain a reward from this card, <b>lose 1 /Hutt reputation</b> and remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "Hera Syndulla",
+      "combat": 5,
+      "elimination_reward": "Gain [Credits]6,000 and 2 fame.",
+      "capture_reward": "Deliver Hera Syndulla's token to Lothal to gain [Credits]15,000, 2 fame, and 1 Imperial Reputation.",
+      "capture_destination": "Lothal",
+      "notes": "After you gain a reward from this card, <b>lose 1 Rebel reputation</b> and remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "Maz Kanata",
+      "combat": 5,
+      "elimination_reward": "Gain [Credits]5,000 and 2 fame.",
+      "capture_reward": "Deliver Maz Kanata's token to Naboo to gain [Credits]15,000 and 2 fame.",
+      "capture_destination": "Naboo",
+      "notes": "After you gain a reward from this card, remove it from the game."
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "Saw Gerrera",
+      "combat": 6,
+      "elimination_reward": "Gain [Credits]8,000 and 2 fame.",
+      "capture_reward": "Deliver Saw Gerrera's token to Lothal to gain [Credits]17,000, 2 fame, and 1 Imperial reputation.",
+      "capture_destination": "Lothal",
+      "notes": "After you gain a reward from thsi card, remove it from the game."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 0,
+    "bounty": {
+      "contact": "Ziton Moj",
+      "combat": 5,
+      "elimination_reward": "Gain [Credits]6,000 and 2 fame.",
+      "capture_reward": "Deliver Ziton Moj's token to the Ring of Kafrene to gain [Credits]16,000 and 2 fame.",
+      "capture_destination": "The Ring of Kafrene",
+      "notes": "After you gain a reward from this card, <b>lose 1 Syndicate reputation</b> and remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 4
+    }
+  }
+]

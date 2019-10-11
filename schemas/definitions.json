@@ -24,7 +24,7 @@
           "description": "Planning ability for this character, as written on the card itself."
         }
       },
-      "oneOf": [
+      "anyOf": [
         {
           "required": ["ability"]
         },
@@ -46,7 +46,7 @@
       "maximum": 9
     },
     "dice_result": {
-      "type": "enum",
+      "type": "string",
       "description": "A possible dice result.",
       "enum": [
         "Hit",
@@ -72,6 +72,14 @@
         "Imperial",
         "Rebel",
         "Syndicate"
+      ]
+    },
+    "gear_type": {
+      "type": "string",
+      "description": "Type of gear in the game.",
+      "enum": [
+        "weapon",
+        "armor"
       ]
     },
     "reputation": {

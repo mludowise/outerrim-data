@@ -18,7 +18,7 @@
       ]
     },
     "skills": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "allOf": {
           "description": "If all of these skills are required to complete the job.",
@@ -60,6 +60,9 @@
         {
           "type": "string",
           "pattern": "The (Imperial|Rebel|Hutt|Syndicate) Patrol's space."
+        },
+        {
+          "$ref": "definitions.json#/definitions/icon_containing_text"
         }
       ]
     }

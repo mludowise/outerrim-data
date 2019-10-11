@@ -27,7 +27,7 @@
         {
           "properties": {
             "price": {
-              "description": "Price of the market card.",
+              "description": "Price of the market card, in thousands.",
               "type": "integer",
               "minimum": 0
             },
@@ -70,11 +70,11 @@
             },
             {
               "properties": {
-                "contact": {
-                  "$ref": "contact.json"
+                "crew": {
+                  "$ref": "crew.json"
                 }
               },
-              "required": ["contact"]
+              "required": ["crew"]
             },
             {
               "properties": {
@@ -83,6 +83,14 @@
                 }
               },
               "required": ["mod"]
+            },
+            {
+              "properties": {
+                "gear": {
+                  "$ref": "gear.json"
+                }
+              },
+              "required": ["gear"]
             }
           ]
         }

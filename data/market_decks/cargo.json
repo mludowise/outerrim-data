@@ -1,6 +1,6 @@
 [
   {
-    "price": 1000,
+    "price": 1,
     "cargo": {
       "name": "Bacta Supplies",
       "description": "Cannot buy on Takodana",
@@ -14,7 +14,7 @@
     }
   },
   {
-    "price": 1000,
+    "price": 1,
     "cargo": {
       "name": "Coaxium Crystal",
       "description": "Cannot buy on Ryloth.",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "price": 1000,
+    "price": 1,
     "cargo": {
       "name": "Droid Parts",
       "description": "Cannot buy on Ord Mantell.",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "price": 1000,
+    "price": 1,
     "cargo": {
       "name": "Food Supplies",
       "description": "Cannot buy on Nal Hutta.",
@@ -53,7 +53,7 @@
     }
   },
   {
-    "price": 1000,
+    "price": 1,
     "cargo": {
       "name": "Salvage",
       "description": "Cannot buy on Mon Calamari.",
@@ -66,14 +66,14 @@
     }
   },
   {
-    "price": 2000,
+    "price": 2,
     "mod": {
       "name": "Smuggling Compartment",
-      "description": "Place this card in a cargo slot or mod slot. You can also have 1 cargo in this slot.\nWhen you are rolling a die to deliver <b>ILLEGAL</b> cargo, you may turn a blank result to a [Hit]."
+      "ability": "Place this card in a cargo slot or mod slot. You can also have 1 cargo in this slot.\nWhen you are rolling a die to deliver <b>ILLEGAL</b> cargo, you may turn a blank result to a [Hit]."
     }
   },
   {
-    "price": 3000,
+    "price": 3,
     "cargo": {
       "name": "Stolen Hyperfuel",
       "description": "Cannot buy on The Ring of Kafrene. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",
@@ -87,7 +87,7 @@
     }
   },
   {
-    "price": 2000,
+    "price": 2,
     "cargo": {
       "name": "Stolen Prototype",
       "description": "Cannot buy on Cantonica. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",
@@ -97,7 +97,7 @@
     }
   },
   {
-    "price": 2000,
+    "price": 2,
     "cargo": {
       "name": "Stolen Supplies",
       "description": "Cannot buy on Kessel. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",
@@ -111,7 +111,7 @@
     }
   },
   {
-    "price": 2000,
+    "price": 2,
     "cargo": {
       "name": "Stolen Weapons",
       "description": "Cannot buy on Tatooine. To deliver, roll a die. On a [Hit], deliver this. Otherwise, resolve card #1.",

@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "gear.json#",
+  "title": "Schema for gear cards",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Name of the gear, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "ability": {
+      "description": "Description of the gear, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "type": {
+      "$ref": "definitions.json#/definitions/gear_type"
+    }
+  },
+  "required": [
+    "name",
+    "ability"
+  ],
+  "additionalProperties": false
+}

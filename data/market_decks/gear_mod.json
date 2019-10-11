@@ -1,0 +1,161 @@
+[
+  {
+    "price": 7,
+    "mod": {
+      "name": "Autoblaster",
+      "ability": "During ship combat, turn up to 2 of your [Focus] results to [Hit]. If you have Tactics, you may instead turn 1 of your [Focus] results to a [Crit]."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 3,
+    "mod": {
+      "name": "Improved Nav Computer",
+      "ability": "Gain +1 [Hyperdrive]."
+    }
+  },
+  {
+    "price": 5,
+    "mod": {
+      "name": "Ion Cannon",
+      "ability": "During ship combat, cancel 1 of your opponent's [Hit]. If you have Tactics, you may instead cancel 1 [Crit]."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 5,
+    "mod": {
+      "name": "Maneuvering Thrusters",
+      "ability": "Gain +1 [Hull].\nDuring ship combat, if you have Tactics, your opponent rolls 1 fewer die."
+    }
+  },
+  {
+    "price": 3,
+    "mod": {
+      "name": "Shield Upgrade",
+      "ability": "Gain +1 [Hull].",
+      "action": "Recover 1 damage from your ship."
+    }
+  },
+  {
+    "price": 2,
+    "mod": {
+      "name": "Targeting Computer",
+      "ability": "Once per ship combat, you may reroll any number of your blank dice."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 2,
+    "mod": {
+      "name": "Quad Laser Cannon",
+      "ability": "Gain +1 [Ship Combat Value]."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 3,
+    "gear": {
+      "name": "Armored Vest",
+      "ability": "Gain +2 [Health].\nLimit 1 <b>ARMOR</b> per character.",
+      "type": "armor"
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 3,
+    "gear": {
+      "name": "DL-44 Heavy Blaster Pistol",
+      "ability": "Gain +1 [Ground Combat Value].",
+      "type": "weapon"
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 6,
+    "gear": {
+      "name": "Jetpack",
+      "ability": "During ground combat, cancel 1 of your opponent's [Hit]. If you have Tactics, you may instead cancel 1 [Crit]."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 5,
+    "gear": {
+      "name": "IQA-11 Blaster Rifle",
+      "ability": "Gain +1 [Ground Combat Value].\nWhen you win a ground combat, you suffer a maximum of 2 damage.",
+      "type": "weapon"
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 8,
+    "gear": {
+      "name": "MPL-57 Grenade Launcher",
+      "ability": "Gain +2 [Ground Combat Value].",
+      "type": "weapon"
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 8,
+    "gear": {
+      "name": "Plastoid Armor",
+      "ability": "Gain +2 [Health].\nDuring ground combat, if you have Strength, your opponent rolls 1 fewer die.\nLimit 1 <b>ARMOR</b> per character."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 6,
+    "gear": {
+      "name": "Vibro-Ax",
+      "ability": "Gain +1 [Ground Combat Value].\nDuring ground combat, if you have Strength, you may turn 1 of your [Focus] results to a [Crit]."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 4,
+    "gear": {
+      "name": "Vibroknife",
+      "ability": "During ground combat, you may turn 1 of your [Focus] results to a [Hit].\nIf you have Stealth or Strength, gain +1[Ground Combat Value].",
+      "type": "weapon"
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 4
+    }
+  }
+]

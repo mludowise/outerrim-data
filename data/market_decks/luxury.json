@@ -1,0 +1,145 @@
+[
+  {
+    "price": 10,
+    "crew": {
+      "name": "Sy Snooties",
+      "ability": "When you complete a job, you may reduce the job's credit reward to [Credits]0 to gain 1 additional fame.",
+      "skills": [
+        "Influence",
+        "Tactics"
+      ]
+    }
+  },
+  {
+    "price": 10,
+    "crew": {
+      "name": "Undercover Agent",
+      "action": "If a player in your space has more fame than you, discard this card to gain 1 fame and make that player lose 1 reputation of your choice.",
+      "skills": [
+        "Stealth"
+      ]
+    }
+  },
+  {
+    "price": 20,
+    "mod": {
+      "name": "Chromium Hull",
+      "ability": "When you gain fame, gain 1 additional fame. When you lose a ship combat, discard this card.\nA player in your space can fight a ship combat against you as their encounter."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 15,
+    "mod": {
+      "name": "Proton Torpedoes",
+      "ability": "Gain +1 [Ship Combat Value].\nWhen you win a combat against a patrol that has a fame reward, gain 1 additional fame."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 15,
+    "gear": {
+      "name": "Extravagant Wardrobe",
+      "ability": "While you have 2 or 3 [Positive] reputations, you have 1 additional fame.\nWhile you have 4 [Positive] reputations, you have 2 additional fame."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 10,
+    "gear": {
+      "name": "Mandalorian Armor",
+      "ability": "Gain +3 [Health].\n When you gain the reward from a bounty, you may reduce the bounty's credit reward to [Credits]0 to gain 1 additional fame.\nLimit 1 <b>ARMOR</b> per character.",
+      "type": "armor"
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 10,
+    "job": {
+      "name": "Attend Statue Dedication",
+      "skills": null,
+      "description": "Your biggest fans would like to erect a statue in your honor on their world. They have asked you to help fund the statue and to attend its dedication.",
+      "destination": "Any planet where you have [Positive] reputation with the planet's faction.",
+      "encounter": "Complete this job.",
+      "reward": "Gain 1 fame. You may spend [Credits]10,000 to gain 1 additional fame. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 10,
+    "job": {
+      "name": "Legendary Game of Sabacc",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Influence",
+            "required": false
+          },
+          {
+            "skill": "Knowledge",
+            "required": false
+          },
+          {
+            "skill": "Stealth",
+            "required": false
+          },
+          {
+            "skill": "Tactics",
+            "required": false
+          }
+        ]
+      },
+      "description": "Your skill at sabaac is well known throughout the galaxy, but another win could make you legendary. Especially if the odds are stacked against you.",
+      "destination": "Another player's space.",
+      "encounter": "Choose another player in your space, and you resolve card #40.",
+      "reward": "Gain [Credits]10,000. If the active player claims this reward, they also gain 1 fame and discard this card."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 20,
+    "cargo": {
+      "name": "Gift for Jabba",
+      "description": "Cannot buy on Tatooine.\nWhen you become defeated, discard 1 of your crew.",
+      "destination": "Tatooine",
+      "reward": "Gain 2 fame and 1 Hutt reputation."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 10,
+    "cargo": {
+      "name": "Dejarik Holotable",
+      "description": "While you have 2 or more crew, you have 1 additional fame.",
+      "action": "If you are at a navpoint, roll 1 die for each crew you have. For each [Hit] or [Focus] result, gain [Credits]1,000."
+    }
+  },
+  {
+    "price": 10,
+    "cargo": {
+      "name": "Stolen Jewels",
+      "action": "Choose another player in your space and discard this card. You both gain [Credits]7,000 and 1 fame."
+    }
+  }
+]
