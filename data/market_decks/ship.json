@@ -1,0 +1,112 @@
+[
+  {
+    "price": 15,
+    "ship": {
+      "name": "Aggressor-Class Assault Fighter",
+      "hyperdrive": 6,
+      "combat": 5,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 2
+    }
+  },
+  {
+    "price": 20,
+    "ship": {
+      "name": "Firespray-31 Patrol Craft",
+      "hyperdrive": 6,
+      "combat": 5,
+      "hull": 6,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 2
+    }
+  },
+  {
+    "price": 5,
+    "ship": {
+      "name": "GX1 Short Hauler",
+      "hyperdrive": 6,
+      "combat": 2,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 0,
+      "crew": 2
+    }
+  },
+  {
+    "price": 10,
+    "ship": {
+      "name": "Heavy-Duty Lifter",
+      "hyperdrive": 6,
+      "combat": 3,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "crew": 3
+    }
+  },
+  {
+    "price": 5,
+    "ship": {
+      "name": "HWK-290 Freighter",
+      "hyperdrive": 6,
+      "combat": 3,
+      "hull": 4,
+      "cargo": 1,
+      "cargo_mod": 0,
+      "mod": 1,
+      "crew": 2
+    }
+  },
+  {
+    "price": 10,
+    "ship": {
+      "name": "Lancer-Class Pursuit Craft",
+      "hyperdrive": 6,
+      "combat": 4,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 0,
+      "mod": 1,
+      "crew": 2
+    }
+  },
+  {
+    "price": 20,
+    "ship": {
+      "name": "Modified YT-1300 Light Freighter",
+      "hyperdrive": 7,
+      "combat": 4,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 3
+    }
+  },
+  {
+    "price": 15,
+    "ship": {
+      "name": "YV-666 Light Freighter",
+      "hyperdrive": 7,
+      "combat": 3,
+      "hull": 5,
+      "cargo": 2,
+      "cargo_mod": 1,
+      "mod": 0,
+      "crew": 3
+    },
+  },
+  {
+    "price": "Special",
+    "special": {
+      "name": "Used Ship for Sale",
+      "instructions": "Buy any ship sheet from the supply that costs more than your current ship. P;lace the sheet on its \"Ship Goal\" side as normal, and then the ship suffers damage.\nIf the ship's card has not been removed from the game, search the [Ship] market deck for the ship's card and remove it from the game. Then shuffle this card back into this deck."
+    }
+  }
+]

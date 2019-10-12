@@ -28,8 +28,16 @@
           "properties": {
             "price": {
               "description": "Price of the market card, in thousands.",
-              "type": "integer",
-              "minimum": 0
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "type": "string",
+                  "enum": ["Special"]
+                }
+              ],
             },
             "quantity": {
               "description": "Number of this exact card in the deck.",
@@ -97,6 +105,22 @@
                 }
               },
               "required": ["gear"]
+            },
+            {
+              "properties": {
+                "ship": {
+                  "$ref": "ship.json"
+                }
+              },
+              "required": ["ship"]
+            },
+            {
+              "properties": {
+                "special": {
+                  "$ref": "special.json"
+                }
+              },
+              "required": ["special"]
             }
           ]
         }

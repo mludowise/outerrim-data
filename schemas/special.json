@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "special.json#",
+  "title": "Schema for special market cards",
+  "properties": {
+    "name": {
+      "description": "Name of the card, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "instructions": {
+      "description": "Instructions on the card, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    }
+  },
+  "required": [
+    "name",
+    "instructions"
+  ],
+  "additionalProperties": false
+}

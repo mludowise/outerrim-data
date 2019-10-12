@@ -114,7 +114,7 @@
     "icon_containing_text": {
       "type": "string",
       "description": "Represents text printed on a card that may contain an icon.",
-      "pattern": "^([^\\[^\\]]*|\\[(Hit|Crit|Focus|Positive|Neutral|Negative|Credits|Fame|Ground Combat Value|Health|Ship Combat Value|Hull|Hyperdrive|Droid)\\])*$",
+      "pattern": "^([^\\[^\\]]*|\\[(Hit|Crit|Focus|Positive|Neutral|Negative|Credits|Fame|Ground Combat Value|Health|Ship Combat Value|Hull|Hyperdrive|Droid|Ship)\\])*$",
       "minLength": 1
     },
     "planet": {
