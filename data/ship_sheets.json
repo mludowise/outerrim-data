@@ -178,7 +178,7 @@
     "price": 15,
     "goal": "When you recover at least 1 damage from this ship, spend [Credits]7,000 to gain 1 fame and flip this sheet.",
     "goal_side": {
-      "name": "YV-666 Light Frieghter",
+      "name": "YV-666 Light Freighter",
       "hyperdrive": 7,
       "combat": 3,
       "hull": 5,
