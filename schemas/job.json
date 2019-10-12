@@ -77,8 +77,16 @@
       "type": "string",
       "minLength": 1
     },
+    "type": {
+      "$ref": "definitions.json#/definitions/job_type"
+    },
     "description": {
       "description": "Description of this job, as written on the card itself.",
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "description": "Notes about this job, as written on the card itself.",
       "type": "string",
       "minLength": 1
     },

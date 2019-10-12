@@ -82,6 +82,13 @@
         "armor"
       ]
     },
+    "job_type": {
+      "type": "string",
+      "description": "Type of job in the game.",
+      "enum": [
+        "favor"
+      ]
+    },
     "reputation": {
       "type": "string",
       "description": "Represents reputation with a faction in the game.",

@@ -31,6 +31,12 @@
               "type": "integer",
               "minimum": 0
             },
+            "quantity": {
+              "description": "Number of this exact card in the deck.",
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            },
             "patrol_movement": {
               "$ref": "#/definitions/patrol_movement"
             },

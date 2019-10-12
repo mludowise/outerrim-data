@@ -22,8 +22,7 @@
       "type": "array",
       "items": {
         "$ref": "definitions.json#/definitions/skills"
-      },
-      "minItems": 1
+      }
     }
   },
   "required": [

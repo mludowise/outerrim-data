@@ -1,0 +1,377 @@
+[
+  {
+    "price": 1,
+    "quantity": 2,
+    "crew": {
+      "name": "Hired Help",
+      "ability": "Before you perform a skill test, you may gain a skill of your choice for that test. If you pass the test, discard this crew.",
+      "skills": []
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Hijacking a Freighter",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Piloting",
+            "required": false
+          },
+          {
+            "skill": "Strength",
+            "required": false
+          },
+          {
+            "skill": "Tech",
+            "required": false
+          },
+          {
+            "skill": "Tactics",
+            "required": false
+          },
+          {
+            "skill": "Ship Combat",
+            "required": false
+          }
+        ]
+      },
+      "description": "The Hutt grumbles at you, and his protocol droid translates. \"My master is looking for a team to hijack a freighter.\"",
+      "notes": "Cannot buy on the Ring of Kafrene.",
+      "destination": "The Ring of Kafrene",
+      "encounter": "Resolve card #44.",
+      "reward": "Gain [Credits]5,000, 2 fame, and 1 Hutt reputation. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Hutt Favor",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Influence",
+            "required": true
+          }
+        ]
+      },
+      "type": "favor",
+      "description": "An influential Hutt is angry that someone is encroaching on her territory and wants you to find out what is responsible.",
+      "destination": "Ord Mantell",
+      "encounter": "Test Influence. If you pass, complete this job. If you fail, resolve card #41.",
+      "reward": "Gain [Credits]5,000 and 1 Hutt reputation, you also lose 1 Syndicate reputation and gain 1 fame. Then discard this card."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Imperial Favor",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Tactics",
+            "required": true
+          }
+        ]
+      },
+      "type": "favor",
+      "description": "The Empire wants you to prevent an arms dealer from meeting Rebel operatives on Ryloth.",
+      "destination": "Ryloth",
+      "encounter": "Test Tactics. If you pass, complete this job. If you fail, resolve card #41.",
+      "reward": "Gain [Credits]5,000 and 1 Imperial reputation. If you alrady had [Positive] Imperial reputation, you also lose 1 Rebel reputation and gain 1 fame. Then discard this card."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Jabba's Hidden Stash",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Piloting",
+            "required": false
+          },
+          {
+            "skill": "Stealth",
+            "required": false
+          },
+          {
+            "skill": "Knowledge",
+            "required": false
+          },
+          {
+            "skill": "Tech",
+            "required": false
+          }
+        ]
+      },
+      "description": "\"Jabba's got so many credits, he won't even notice a few missing,\" the Twi'lek says. \"The plan's foolproof. You in?\"",
+      "destination": "Tatooine",
+      "encounter": "Resolve card #43.",
+      "reward": "Lose 1 Hutt reputation and gain [Credits]10,000 and 1 fame. Then remove this card fro the game."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Rebel Favor",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Knowledge",
+            "required": true
+          }
+        ]
+      },
+      "description": "The Rebel alliance is looking for someone who knows their way around Imperial installations.",
+      "destination": "Lothal",
+      "encounter": "Test Knowledge. If you pass, complete this job. If you fail, resolve card #41.",
+      "reward": "Gain [Credits]5,000 and 1 Rebel reputation. If you already had [Positive] Rebel reputation, you also lose 1 Imperial reputation and gain 1 fame. Then discard this card."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Relic of the Past",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Knowledge",
+            "required": true
+          },
+          {
+            "skill": "Stealth",
+            "required": false
+          },
+          {
+            "skill": "Tactics",
+            "required": true
+          }
+        ]
+      },
+      "description": "You have uncovered information about an underwater temple on Mon Calamari. Surely there is something of worth there.",
+      "notes": "Cannot buy on Mon Calamari.",
+      "destination": "Mon Calimari",
+      "encounter": "Resolve card #49.",
+      "reward": "Gain [Credits]5,000 and 1 fame. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Rescue from the Mines",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Knowledge",
+            "required": false
+          },
+          {
+            "skill": "Stealth",
+            "required": false
+          },
+          {
+            "skill": "Strength",
+            "required": true
+          }
+        ]
+      },
+      "description": "A local governor's son fell in with an unsavory crowd and landed himself in the spice mines of Kessel. His mother will pay a generous fee to anyone gutsy enough to break him out.",
+      "notes": "Cannot buy on Kessel.",
+      "destination": "Kessel",
+      "encounter": "Resolve card #50.",
+      "reward": "Lost 1 Syndicate reputation and gain [Credits]8,000 and 1 fame. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Rooting Out Spies",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Influence",
+            "required": false
+          },
+          {
+            "skill": "Knowledge",
+            "required": true
+          },
+          {
+            "skill": "Tactics",
+            "required": true
+          }
+        ]
+      },
+      "description": "Maz senses that there are Imperial agents in her midst, and she has asked for help rooting out the spies.",
+      "notes": "Cannot buy on Takodana.",
+      "destination": "Takodana",
+      "encounter": "Resolve card #51.",
+      "reward": "Gain [Credits]5,000 and 1 fame. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Hutt",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "Syndicate Favor",
+      "type": "favor",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Knowledge",
+            "required": true
+          }
+        ]
+      },
+      "description": "A crime syndicate is looking for someone who understands many languages to inherit the Hutt Grand Council.",
+      "destination": "Nal Hutta",
+      "encounter": "Test Knowledge. If you pass, complete this job. If you fail, resolve card #41.",
+      "reward": "Gain [Credits]5,000 and 1 Syndicate reputation. If you already had [Positive] Syndicate reputation, you also lose 1 Hutt reputation and gain 1 fame. Then discard this card."
+    },
+    "patrol_movement": {
+      "faction": "Syndicate",
+      "spaces": 4
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "The Casino Heist",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Influence",
+            "required": true
+          },
+          {
+            "skill": "Tech",
+            "required": false
+          },
+          {
+            "skill": "Strength",
+            "required": false
+          }
+        ]
+      },
+      "description": "The casino has more credits than they know what to do with. No one will notice if you skim a little off the top, right?",
+      "notes": "Cannot buy on Cantonica",
+      "destination": "Cantonica",
+      "encounter": "Resolve card #42.",
+      "reward": "Gain [Credits]15,000. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "The Jewel of Yavin",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Knowledge",
+            "required": false
+          },
+          {
+            "skill": "Tactics",
+            "required": false
+          },
+          {
+            "skill": "Influence",
+            "required": false
+          },
+          {
+            "skill": "Stealth",
+            "required": false
+          },
+          {
+            "skill": "Tech",
+            "required": false
+          }
+        ]
+      },
+      "description": "The galaxy's elite gather at Naboo to bid on the dazzling corusca gem, the Jewel of Yavin. It has already been stolen once, so you expect security to be tight.",
+      "notes": "Cannot buy on Naboo.",
+      "destination": "Naboo",
+      "encounter": "Resolve card #45.",
+      "reward": "Gain [Credits]15,000 and 1 fame. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Imperial",
+      "spaces": 3
+    }
+  },
+  {
+    "price": 0,
+    "job": {
+      "name": "The Kessel Run",
+      "skills": {
+        "allOf": [
+          {
+            "skill": "Influence",
+            "required": true
+          },
+          {
+            "skill": "Strength",
+            "required": true
+          },
+          {
+            "skill": "Tactics",
+            "required": false
+          },
+          {
+            "skill": "Knowledge",
+            "required": false
+          },
+          {
+            "skill": "Piloting",
+            "required": false
+          }
+        ]
+      },
+      "description": "Deep under the surface of Kessel is a rich vein of coaxium ore. You've been hired to steal some.",
+      "notes": "Cannot buy on Kessel.",
+      "destination": "Kessel",
+      "encounter": "Resolve card #46.",
+      "reward": "Gain [Credits]10,000 and 2 fame. Then remove this card from the game."
+    },
+    "patrol_movement": {
+      "faction": "Rebel",
+      "spaces": 3
+    }
+  }
+]
