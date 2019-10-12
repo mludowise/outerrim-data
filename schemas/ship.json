@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "id": "ship.json#",
-  "title": "Schema for ship cards",
+  "title": "Schema for a ship",
   "type": "object",
   "properties": {
     "name": {
@@ -30,7 +30,7 @@
       "minimum": 0
     },
     "cargo_mod": {
-      "description": "Number of slots this ship has that can be used for either cargo or mods..",
+      "description": "Number of slots this ship has that can be used for either cargo or mods.",
       "type": "integer",
       "minimum": 0
     },
@@ -43,16 +43,23 @@
       "description": "Number of slots this ship has that can be used for only crew.",
       "type": "integer",
       "minimum": 0
+    },
+    "bounty": {
+      "description": "Number of slots this ship has that can be used for only bounty.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "crew_bounty": {
+      "description": "Number of slots this ship has that can be used for either crew or bounty.",
+      "type": "integer",
+      "minimum": 0
     }
   },
   "required": [
     "name",
     "hyperdrive",
     "combat",
-    "hull",
-    "cargo",
-    "cargo_mod",
-    "crew"
+    "hull"
   ],
   "additionalProperties": false
 }

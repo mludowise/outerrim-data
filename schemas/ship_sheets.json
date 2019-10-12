@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "ship_sheets.json#",
+  "title": "Schema for ship cards",
+  "definitions": {
+    "ship": {
+      "description": "Represents a ship sheet in the game.",
+      "type": "object",
+      "properties": {
+        "price": {
+          "description": "Price of the ship, in thousands.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "goal": {
+          "description": "The ship's goal, as written on the sheet itself.",
+          "$ref": "definitions.json#/definitions/icon_containing_text"
+        },
+        "goal_side": {
+          "$ref": "ship.json"
+        },
+        "unlocked_ability_name": {
+          "description": "Name of the ship's ability, as written on the card itself.",
+          "type": "string",
+          "minLength": 1
+        },
+        "unlocked_ability": {
+          "description": "The ship's ability, as written on the card itself.",
+          "$ref": "definitions.json#/definitions/icon_containing_text"
+        },
+        "unlocked_side": {
+          "$ref": "ship.json"
+        }
+      },
+      "required": [
+        "price",
+        "goal",
+        "goal_side",
+        "unlocked_ability_name",
+        "unlocked_ability",
+        "unlocked_side"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/ship"
+  }
+}

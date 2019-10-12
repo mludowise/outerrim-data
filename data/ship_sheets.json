@@ -1,0 +1,202 @@
+[
+  {
+    "price": 15,
+    "goal": "Win 2 combats against patrols to gain 1 fame and flip this sheet.",
+    "goal_side": {
+      "name": "Aggressor-Class Assault Fighter",
+      "hyperdrive": 6,
+      "combat": 5,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 2
+    },
+    "unlocked_ability_name": "Long Range Icon Cannon",
+    "unlocked_ability": "When you win a combat against a patrol, do not lose reputation with that patrol's faction.",
+    "unlocked_side": {
+      "name": "IG-2000",
+      "hyperdrive": 6,
+      "combat": 5,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 2,
+      "bounty": 1
+    }
+  },
+  {
+    "price": 20,
+    "goal": "<b>Encounter:</b> Fight a ship combat against a player in your space (even if on a planet) who has more fame than you. If you win, gain 1 fame and flip this sheet.",
+    "goal_side": {
+      "name": "Firespray-31  Patrol Craft",
+      "hyperdrive": 6,
+      "combat": 5,
+      "hull": 6,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 2
+    },
+    "unlocked_ability_name": "Stealth Device",
+    "unlocked_ability": "When you move into a patrol's space, you may test Stealth. If you pass, you do not have to end your movement in that space.",
+    "unlocked_side": {
+      "name": "Slave 1",
+      "hyperdrive": 6,
+      "combat": 5,
+      "hull": 6,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 2,
+      "crew": 2
+    }
+  },
+  {
+    "price": 5,
+    "goal": "Gain a crew while you have 2 crew to gain 1 fame and flip this sheet (keep all 3 crew).",
+    "goal_side": {
+      "name": "GX1 Short Hauler",
+      "hyperdrive": 6,
+      "combat": 2,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "crew": 2
+    },
+    "unlocked_ability_name": "Diplomatic Mission",
+    "unlocked_ability": "During your encounter step, you are not forced to encounter patrols that you have [Negative] reputation with.",
+    "unlocked_side": {
+      "name": "Valorous",
+      "hyperdrive": 6,
+      "combat": 2,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "crew": 3
+    }
+  },
+  {
+    "price": 10,
+    "goal": "If you have at least 1 cargo, complete a job to gain 1 fame and flip this sheet.",
+    "goal_side": {
+      "name": "Heavy-Duty Lifter",
+      "hyperdrive": 6,
+      "combat": 3,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "crew": 3
+    },
+    "unlocked_ability_name": "Secret Mission",
+    "unlocked_ability": "Gain +1 [Hyperdrive] for each job you have.",
+    "unlocked_side": {
+      "name": "Ark Angel",
+      "hyperdrive": 6,
+      "combat": 3,
+      "hull": 5,
+      "cargo": 2,
+      "mod": 1,
+      "crew": 3
+    }
+  },
+  {
+    "price": 5,
+    "goal": "<b>Action:</b> If you have a mod, spend [Credits]7,000 to gain 1 fame and flip this sheet.",
+    "goal_side": {
+      "name": "HWK-290 Freighter",
+      "hyperdrive": 6,
+      "combat": 3,
+      "hull": 4,
+      "cargo": 1,
+      "mod": 1,
+      "crew": 2
+    },
+    "unlocked_ability_name": "Anti-Personnel Blaster Turret",
+    "unlocked_ability": "Gain +1 [Ground Combat Value].",
+    "unlocked_side": {
+      "name": "Moldy Crow",
+      "hyperdrive": 6,
+      "combat": 3,
+      "hull": 4,
+      "cargo": 2,
+      "mod": 1,
+      "crew": 2
+    }
+  },
+  {
+    "price": 10,
+    "goal": "Deliver a contact on 1 of your bounty cards to gain 1 fame and flip this sheet.",
+    "goal_side": {
+      "name": "Lancer-Class Pursuit Craft",
+      "hyperdrive": 6,
+      "combat": 4,
+      "hull": 5,
+      "cargo": 1,
+      "mod": 1,
+      "crew": 2
+    },
+    "unlocked_ability_name": "Tractor Beam",
+    "unlocked_ability": "When another player moves into your space, you may force them to end their movement.",
+    "unlocked_side": {
+      "name": "Shadow Caster",
+      "hyperdrive": 6,
+      "combat": 4,
+      "hull": 5,
+      "cargo": 1,
+      "mod": 1,
+      "crew": 2,
+      "crew_bounty": 1
+    }
+  },
+  {
+    "price": 20,
+    "goal": "If you have either 2 mods or 1 mod and the \"Chrewbacca\" crew, deliver 1 cargo to gain 1 fame and flip this sheet.",
+    "goal_side": {
+      "name": "Modified YT-1300 Light Freighter",
+      "hyperdrive": 7,
+      "combat": 4,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 3
+    },
+    "unlocked_ability_name": "Special Modifications",
+    "unlocked_ability": "When you are rolling a die to deliver <b>ILLEGAL</b> cargo, you may turn a [Focus] or [Crit] result to a [Hit].",
+    "unlocked_side": {
+      "name": "Millennium Falcon",
+      "hyperdrive": 7,
+      "combat": 5,
+      "hull": 5,
+      "cargo": 1,
+      "cargo_mod": 1,
+      "mod": 1,
+      "crew": 3
+    },
+  {
+    "price": 15,
+    "goal": "When you recover at least 1 damage from this ship, spend [Credits]7,000 to gain 1 fame and flip this sheet.",
+    "goal_side": {
+      "name": "YV-666 Light Frieghter",
+      "hyperdrive": 7,
+      "combat": 3,
+      "hull": 5,
+      "cargo": 2,
+      "cargo_mod": 1,
+      "crew": 3
+    },
+    "unlocked_ability_name": "Nashtan Pup",
+    "unlocked_ability": "When you would become defeated during a ship combat, roll a die. On a [Focus] or [Hit] result, recover 2 damage from your ship instead.",
+    "unlocked_side": {
+      "name": "Hound's Tooth",
+      "hyperdrive": 7,
+      "combat": 4,
+      "hull": 5,
+      "cargo": 2,
+      "cargo_mod": 1,
+      "crew": 3
+    }
+  }
+  }
+]

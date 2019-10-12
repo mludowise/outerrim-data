@@ -37,7 +37,7 @@
                   "type": "string",
                   "enum": ["Special"]
                 }
-              ],
+              ]
             },
             "quantity": {
               "description": "Number of this exact card in the deck.",
