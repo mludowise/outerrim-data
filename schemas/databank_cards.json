@@ -2,87 +2,102 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "id": "jobs.json#",
   "title": "Schema for job cards",
-  "definitions": { },
+  "definitions": {
+    "card": {
+      "allOf": [
+        {
+          "properties": {
+            "starting_planet": {
+              "description": "If this is a setup card for a character, that character's starting planet.",
+              "$ref": "definitions.json#/definitions/planet"
+            }
+          }
+        },
+        {
+          "oneOf": [
+            {
+              "properties": {
+                "bounty": {
+                  "$ref": "bounty.json"
+                }
+              },
+              "required": ["bounty"]
+            },
+            {
+              "properties": {
+                "cargo": {
+                  "$ref": "cargo.json"
+                }
+              },
+              "required": ["cargo"]
+            },
+            {
+              "properties": {
+                "cargo_delivery": {
+                  "$ref": "cargo_delivery.json"
+                }
+              },
+              "required": ["cargo_delivery"]
+            },
+            {
+              "properties": {
+                "contact": {
+                  "$ref": "contact.json"
+                }
+              },
+              "required": ["contact"]
+            },
+            {
+              "properties": {
+                "job": {
+                  "$ref": "job.json"
+                }
+              },
+              "required": ["job"]
+            },
+            {
+              "properties": {
+                "job_encounter": {
+                  "$ref": "job_encounter.json"
+                }
+              },
+              "required": ["job_encounter"]
+            },
+            {
+              "properties": {
+                "job_resolution": {
+                  "$ref": "job_resolution.json"
+                }
+              },
+              "required": ["job_resolution"]
+            }
+          ]
+        }
+      ],
+      "additionalProperties": false
+    }
+  },
   "type": "array",
   "items": {
     "type": "object",
-    "allOf": [
-      {
-        "properties": {
-          "number": {
-            "description": "The number of this card.",
-            "type": "integer",
-            "minimum": 1
-          },
-          "starting_planet": {
-            "description": "If this is a setup card for a character, that character's starting planet.",
-            "$ref": "definitions.json#/definitions/planet"
-          }
-        }
+    "properties": {
+      "number": {
+        "description": "The number of this card.",
+        "type": "integer",
+        "minimum": 1
       },
-      {
-        "oneOf": [
-          {
-            "properties": {
-              "job": {
-                "$ref": "job.json"
-              }
-            },
-            "required": ["job"]
-          },
-          {
-            "properties": {
-              "cargo": {
-                "$ref": "cargo.json"
-              }
-            },
-            "required": ["cargo"]
-          },
-          {
-            "properties": {
-              "bounty": {
-                "$ref": "bounty.json"
-              }
-            },
-            "required": ["bounty"]
-          },
-          {
-            "properties": {
-              "job_encounter": {
-                "$ref": "job_encounter.json"
-              }
-            },
-            "required": ["job_encounter"]
-          },
-          {
-            "properties": {
-              "job_resolution": {
-                "$ref": "job_resolution.json"
-              }
-            },
-            "required": ["job_resolution"]
-          },
-          {
-            "properties": {
-              "contact": {
-                "$ref": "contact.json"
-              }
-            },
-            "required": ["contact"]
-          },
-          {
-            "properties": {
-              "cargo_delivery": {
-                "$ref": "cargo_delivery.json"
-              }
-            }
-          }
-        ]
+      "cards": {
+        "description": "Cards in the deck corresponding to this number.",
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/card"
+        }
       }
-    ],
+    }
     "additionalProperties": false,
     "required": [
-      "number"
+      "number",
+      "cards"
     ]
   }
 }
