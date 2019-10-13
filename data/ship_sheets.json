@@ -1,5 +1,27 @@
 [
   {
+    "starter": {
+      "name": "G-1A Starfighter",
+      "hyperdrive": 5,
+      "combat": 3,
+      "hull": 4,
+      "cargo": 1,
+      "mod": 1,
+      "crew": 1
+    }
+  },
+  {
+    "starter": {
+      "name": "G9 Rigger",
+      "hyperdrive": 6,
+      "combat": 2,
+      "hull": 3,
+      "cargo": 1,
+      "mod": 1,
+      "crew": 1
+    }
+  },
+  {
     "price": 15,
     "goal": "Win 2 combats against patrols to gain 1 fame and flip this sheet.",
     "goal_side": {

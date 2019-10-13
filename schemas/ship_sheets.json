@@ -17,6 +17,7 @@
           "$ref": "definitions.json#/definitions/icon_containing_text"
         },
         "goal_side": {
+          "description": "The ship stats for the goal side of the sheet.",
           "$ref": "ship.json"
         },
         "unlocked_ability_name": {
@@ -29,16 +30,30 @@
           "$ref": "definitions.json#/definitions/icon_containing_text"
         },
         "unlocked_side": {
+          "description": "The ship stats for the goal unlocked of the sheet.",
+          "$ref": "ship.json"
+        },
+        "starter": {
+          "description": "If this is a starter ship, the ship's stats.",
           "$ref": "ship.json"
         }
       },
-      "required": [
-        "price",
-        "goal",
-        "goal_side",
-        "unlocked_ability_name",
-        "unlocked_ability",
-        "unlocked_side"
+      "oneOf": [
+        {
+          "required": [
+            "price",
+            "goal",
+            "goal_side",
+            "unlocked_ability_name",
+            "unlocked_ability",
+            "unlocked_side"
+          ]
+        },
+        {
+          "required": [
+            "starter"
+          ]
+        }
       ],
       "additionalProperties": false
     }
