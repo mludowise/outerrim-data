@@ -626,28 +626,6 @@
     "cards": [
       {
         "job_resolution": {
-          "name": "A Cutthroat Game of Sabacc",
-          "rows": [
-            {
-              "label": "1",
-              "description": "You've barely started playing and you're already about to lose.",
-              "instructions": "You can choose to cheat. If you do, skip to step 3."
-            },
-            {
-              "label": "2",
-              "description": "Your opponent calls, and you're left with two options. Either take your losses or open fire.",
-              "instructions": "You choose to either fight a ground combat against your opponent or let your opponent gain the reward.\nIf you fight a ground combat, the winner gains the reward."
-            },
-            {
-              "label": "3",
-              "description": "You pull a card from your sleeve and hope your opponent doesn't notice.",
-              "instructions": "You test Stealth. If you pass, you gain the reward. If you fail, the other player chooses to proceed to step 2 or test Influence.\nIf they test Influence and pass, they gain the reward. If they fail, you gain the reward."
-            }
-          ]
-        }
-      },
-      {
-        "job_resolution": {
           "name": "Tenuous Alliance",
           "instructions": "Resolve the section below that matches the job you are resolving.",
           "rows": [
