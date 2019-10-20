@@ -197,7 +197,7 @@
           "token_color": "yellow",
           "encounter_description": "In his long life, Chewbacca has learned many useful skills. You couldn't ask for a better ally.",
           "encounter_instructions": "If you are Han solo, you may gain the crew below and discard Chrewbacca's token.\nOtherwise you may spend [Credits]4,000 to gain the crew below and discard Chrewbacca's token.",
-          "character_complement": "Han Solo",
+          "ally": "Han Solo",
           "crew": {
             "ability": "Gain +1 [Health] and +2 [Hull].",
             "skills": [
@@ -445,7 +445,7 @@
           "token_color": "white",
           "encounter_description": "Lobot's brain enhancing device allows him direct contact with complex computer systems. Surely you can find a use for such skills.",
           "encounter_instructions": "If you are Lando Calrissian, you may gain the crew below and discard Lobot's token.\nOtherwise you may spend [Credits]2,000 to gain the crew below and discard Lobot's token.",
-          "character_complement": "Lando Calrissian",
+          "ally": "Lando Calrissian",
           "crew": {
             "ability": "When you choose to gain credits during the planning phase, gain an additional [Credits]1,000 for each [Positive] reputation you have.",
             "skills": [
@@ -504,7 +504,7 @@
           "token_color": "yellow",
           "encounter_description": "Even the Rebel Alliance finds Saw Gerrera too extreme.",
           "encounter_instructions": "If you are Jyn Erso, you may gain the crew below and discard Saw Gerrera's token.\nIf you are not Jyn Erso and you have [Negative] Rebel reputation or [Positive] Imperial reputation, test Stealth. If you fail, your character suffers 2 damage.\nIf you did not test Stealth, you may test Influence. If you pass, gain the crew below and discard Saw Gurrera's token.",
-          "character_complement": "Jyn Erso",
+          "ally": "Jyn Erso",
           "crew": {
             "action": "Choose another character or ship in your space; it suffers 2 damage. If that player has [Positive] Imperial reputation, it suffers 1 additional damage.",
             "faction": "Rebel",
@@ -525,7 +525,7 @@
           "token_color": "white",
           "encounter_description": "Most droids are rather high-strung, so W1-LE's laid back demeanor and easy charm are a pleasant surprise.",
           "encounter_instructions": "If you are Lando Calrissian, you may gain the crew below and discard W1-LE's token.\nOtherwise, you may test Tech. If you pass, gain the crew below and discard W1-LE's token. If you would fail, you may spend [Credits]3,000 to pass this test instead.",
-          "character_complement": "Lando Calrissian",
+          "ally": "Lando Calrissian",
           "crew": {
             "encounter": "Perform a market action, even if you are at a navpoint or performed this action during your action step.",
             "is_droid": true,

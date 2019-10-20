@@ -26,7 +26,7 @@
       "description": "If this contact can be added as crew, their crew abilities.",
       "$ref": "crew.json"
     },
-    "character_complement": {
+    "ally": {
       "description": "Name of a character can get this crew member for free, if there is one.",
       "type": "string",
       "minLength": 1
