@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "characters.json#",
+  "title": "Schema for characters",
+  "definitions": {
+    "character": {
+      "properties": {
+        "name": {
+          "description": "The character's name, as written on either the character card or contact card.",
+          "$ref": "definitions.json#/definitions/icon_containing_text"
+        },
+        "role": {
+          "$ref": "#/definitions/role"
+        },
+        "token_color": {
+          "type": ["string", "null"],
+          "description": "Color of this contact's token.",
+          "$ref": "definitions.json#/definitions/contact_token_color"
+        },
+        "wikia": {
+          "description": "Wikia article for this character, if it exists.",
+          "$ref": "#/definitions/wikia"
+        }
+      },
+      "required": [
+        "name",
+        "role"
+      ],
+      "additionalProperties": false
+    },
+    "role": {
+      "description": "This character's role in the game.",
+      "type": "string",
+      "enum": [
+        "player",
+        "contact"
+      ]
+    },
+    "wikia": {
+      "properties": {
+        "id": {
+          "description": "Page id for this article.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "description": "Article title.",
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "description": "URL path for this article.",
+          "type": "string",
+          "format": "^https\\://starwars\\.fandom\\.com.+$",
+          "minLength": 28
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "url"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/character"
+  }
+}

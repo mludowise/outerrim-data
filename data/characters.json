@@ -1,188 +1,294 @@
 [
   {
+    "name": "4-LOM",
+    "role": "contact",
+    "token_color": "green",
+    "wikia": {
+      "id": 472964,
+      "title": "4-LOM",
+      "url": "https://starwars.fandom.com/wiki/4-LOM"
+    }
+  },
+  {
+    "name": "Bib Fortuna",
+    "role": "contact",
+    "token_color": "green",
+    "wikia": {
+      "id": 456823,
+      "title": "Bib Fortuna",
+      "url": "https://starwars.fandom.com/wiki/Bib_Fortuna"
+    }
+  },
+  {
+    "name": "Black Krrsantan",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 480985,
+      "title": "Black Krrsantan",
+      "url": "https://starwars.fandom.com/wiki/Black_Krrsantan"
+    }
+  },
+  {
+    "name": "Black Sun Agent",
+    "role": "contact",
+    "token_color": "white",
+    "wikia": {
+      "id": 453908,
+      "title": "Black Sun",
+      "url": "https://starwars.fandom.com/wiki/Black_Sun"
+    }
+  },
+  {
     "name": "Boba Fett",
-    "combat": 3,
-    "health": 4,
-    "skills": [
-      "Stealth",
-      "Tactics"
-    ],
-    "personal_goal": "Gain rewards from 2 bounties to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "action": "Secretly look at 1 contact on your planet."
-    },
-    "locked_abilities": {
-      "ability": "After you eliminate a contact for a bounty instead of capturing it, gain [Credits]5,000."
-    },
-    "setup_card": 90,
-    "setup_reputation": [
-      {
-        "reputation": "Positive",
-        "faction": "Hutt"
-      }
-    ]
+    "role": "player",
+    "wikia": {
+      "id": 452381,
+      "title": "Boba Fett",
+      "url": "https://starwars.fandom.com/wiki/Boba_Fett"
+    }
+  },
+  {
+    "name": "BoShek",
+    "role": "contact",
+    "token_color": "green",
+    "wikia": {
+      "id": 509438,
+      "title": "BoShek",
+      "url": "https://starwars.fandom.com/wiki/BoShek"
+    }
   },
   {
     "name": "Bossk",
-    "combat": 3,
-    "health": 4,
-    "skills": [
-      "Stealth",
-      "Tactics"
-    ],
-    "personal_goal": "Have at least 1 mod and 2 gear with a combined cost of at least [Credits]15,000 to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "action": "Recover 2 damage from your character and 2 damage from your ship."
-    },
-    "locked_abilities": {
-      "encounter": "Fight a combat against a player in your space who has more fame than you. If you win, gain 1 fame."
-    },
-    "setup_card": 90,
-    "setup_reputation": [
-      {
-        "reputation": "Positive",
-        "faction": "Hutt"
-      }
-    ]
+    "role": "player",
+    "wikia": {
+      "id": 452999,
+      "title": "Bossk",
+      "url": "https://starwars.fandom.com/wiki/Bossk"
+    }
+  },
+  {
+    "name": "Chewbacca",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 452815,
+      "title": "Chewbacca",
+      "url": "https://starwars.fandom.com/wiki/Chewbacca"
+    }
+  },
+  {
+    "name": "Dengar",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 452714,
+      "title": "Dengar",
+      "url": "https://starwars.fandom.com/wiki/Dengar"
+    }
   },
   {
     "name": "Doctor Aphra",
-    "combat": 2,
-    "health": 4,
-    "skills": [
-      "Knowledge",
-      "Stealth",
-      "Tech"
-    ],
-    "personal_goal": "Complete 2 jobs to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "ability": "Once per turn, before you perform a skill test, you may gain a skill of your choice for that test."
-    },
-    "locked_abilities": {
-      "planning": "If you are on a planet or navpoint, perform a market action. This does not prevent you from performing a market action during your action step."
-    },
-    "setup_card": 92,
-    "setup_reputation": [
-      {
-        "reputation": "Positive",
-        "faction": "Imperial"
-      }
-    ]
+    "role": "player",
+    "wikia": {
+      "id": 550886,
+      "title": "Star Wars: Doctor Aphra",
+      "url": "https://starwars.fandom.com/wiki/Star_Wars:_Doctor_Aphra"
+    }
+  },
+  {
+    "name": "Doctor Evazan",
+    "role": "contact",
+    "token_color": "white",
+    "wikia": {
+      "id": 165780,
+      "title": "Cornelius Evazan",
+      "url": "https://starwars.fandom.com/wiki/Cornelius_Evazan"
+    }
+  },
+  {
+    "name": "Garindan",
+    "role": "contact",
+    "token_color": "white",
+    "wikia": {
+      "id": 3001,
+      "title": "Garindan",
+      "url": "https://starwars.fandom.com/wiki/Garindan"
+    }
+  },
+  {
+    "name": "Grand Admiral Thrawn",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 433383,
+      "title": "Mitth'raw'nuruodo",
+      "url": "https://starwars.fandom.com/wiki/Mitth%27raw%27nuruodo"
+    }
+  },
+  {
+    "name": "Greedo",
+    "role": "contact",
+    "token_color": "green",
+    "wikia": {
+      "id": 453909,
+      "title": "Greedo",
+      "url": "https://starwars.fandom.com/wiki/Greedo"
+    }
   },
   {
     "name": "Han Solo",
-    "combat": 3,
-    "health": 4,
-    "skills": [
-      "Piloting",
-      "Tech"
-    ],
-    "personal_goal": "Have a ship with a cost of at least [Credits]15,000 to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "ability": "Gain +2 [Hyperdrive]"
-    },
-    "locked_abilities": {
-      "ability": "When you move into a patrol's space, you may test Piloting. If you pass, you do not have to end your movement in that space."
-    },
-    "setup_card": 91,
-    "setup_reputation": [
-      {
-        "reputation": "Negative",
-        "faction": "Hutt"
-      }
-    ]
+    "role": "player",
+    "wikia": {
+      "id": 452394,
+      "title": "Han Solo",
+      "url": "https://starwars.fandom.com/wiki/Han_Solo"
+    }
   },
   {
-    "name": "Lando Calrissian",
-    "combat": 2,
-    "health": 4,
-    "skills": [
-      "Influence",
-      "Knowledge",
-      "Piloting"
-    ],
-    "personal_goal": "Deliver 2 <b>ILLEGAL</b> cargo to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "ability": "After you roll dice (for any reason), you may reroll 1 of your dice."
-    },
-    "locked_abilities": {
-      "action": "If you are on a planet, you may spend [Credits]1,000 to test Influence. If you pass, gain 1 reputation with the planet's faction."
-    },
-    "setup_card": 91,
-    "setup_reputation": [
-      {
-        "reputation": "Positive",
-        "faction": "?"
-      }
-    ]
+    "name": "Hera Syndulla",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 442414,
+      "title": "Hera Syndulla",
+      "url": "https://starwars.fandom.com/wiki/Hera_Syndulla"
+    }
   },
   {
-    "name": "Jyn Erso",
-    "combat": 3,
-    "health": 4,
-    "skills": [
-      "Influence",
-      "Tactics"
-    ],
-    "personal_goal": "Have a damage token on 2 Imperial planets to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "ability": "Once per turn, during combat or a skill test, you may turn 1 of your [Focus] resutls to a [Crit]."
-    },
-    "unlocked_abilities": {
-      "action": "If you are on an Imperial planet, test Stealth. If you pass, place 1 damage token on your planet."
-    },
-    "locked_abilities": {
-      "ability": "When a patrol within 3 spaces of you would move during your market action, you may move the patrol toward another player instead of toward you."
-    },
-    "setup_card": 92,
-    "setup_reputation": [
-      {
-        "reputation": "Negative",
-        "faction": "Imperial"
-      }
-    ]
+    "name": "Hondo Ohnaka",
+    "role": "contact",
+    "token_color": "green",
+    "wikia": {
+      "id": 456131,
+      "title": "Hondo Ohnaka",
+      "url": "https://starwars.fandom.com/wiki/Hondo_Ohnaka"
+    }
   },
   {
     "name": "IG-88 [Droid]",
-    "combat": 3,
-    "health": 4,
-    "skills": [
-      "Strength",
-      "Tech"
-    ],
-    "personal_goal": "Have 2 droid ([Droid]) crew to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "ability": "Once per combat, you may reroll any number of your dice."
-    },
-    "unlocked_abilities": {
-      "action": "Take a droid ([Droid]) crew from another player in your space."
-    },
-    "locked_abilities": {
-      "ability": "When you would become defeated, you may discard 1 of your crew to recover all damage from your character and ship instead. (Place the crew's contact token on the nearest empty contact space.)"
-    },
-    "setup_card": 90
+    "role": "player",
+    "wikia": {
+      "id": 380455,
+      "title": "IG-88",
+      "url": "https://starwars.fandom.com/wiki/IG-88"
+    }
+  },
+  {
+    "name": "IG-RM Droid",
+    "role": "contact",
+    "token_color": "green",
+    "wikia": {
+      "id": 581236,
+      "title": "IG-RM",
+      "url": "https://starwars.fandom.com/wiki/IG-RM"
+    }
+  },
+  {
+    "name": "Jyn Erso",
+    "role": "player",
+    "wikia": {
+      "id": 509001,
+      "title": "Jyn Erso",
+      "url": "https://starwars.fandom.com/wiki/Jyn_Erso"
+    }
+  },
+  {
+    "name": "K-2SO",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 539113,
+      "title": "K-2SO",
+      "url": "https://starwars.fandom.com/wiki/K-2SO"
+    }
   },
   {
     "name": "Ketsu Onyo",
-    "combat": 3,
-    "health": 4,
-    "skills": [
-      "Stealth",
-      "Strength"
-    ],
-    "personal_goal": "Win 3 combats to gain 1 fame and flip this card.",
-    "given_abilities": {
-      "encounter": "Encounter a patrol or contact token that is within 3 spaces of you."
-    },
-    "locked_abilities": {
-      "ability": "After you win a combat, gain [Credits]4,000."
-    },
-    "setup_card": 90,
-    "setup_reputation": [
-      {
-        "reputation": "Positive",
-        "faction": "Syndicate"
-      }
-    ]
+    "role": "player",
+    "wikia": {
+      "id": 517830,
+      "title": "Ketsu Onyo",
+      "url": "https://starwars.fandom.com/wiki/Ketsu_Onyo"
+    }
+  },
+  {
+    "name": "Lando Calrissian",
+    "role": "player",
+    "wikia": {
+      "id": 452964,
+      "title": "Lando Calrissian",
+      "url": "https://starwars.fandom.com/wiki/Lando_Calrissian"
+    }
+  },
+  {
+    "name": "Leia Organa",
+    "role": "contact",
+    "token_color": "green",
+    "wikia": {
+      "id": 452428,
+      "title": "Leia Organa",
+      "url": "https://starwars.fandom.com/wiki/Leia_Organa"
+    }
+  },
+  {
+    "name": "Lobot",
+    "role": "contact",
+    "token_color": "white",
+    "wikia": {
+      "id": 453055,
+      "title": "Lobot",
+      "url": "https://starwars.fandom.com/wiki/Lobot"
+    }
+  },
+  {
+    "name": "Maz Kanata",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 500791,
+      "title": "Maz Kanata",
+      "url": "https://starwars.fandom.com/wiki/Maz_Kanata"
+    }
+  },
+  {
+    "name": "Ponda Baba",
+    "role": "contact",
+    "token_color": "white",
+    "wikia": {
+      "id": 465140,
+      "title": "Ponda Baba",
+      "url": "https://starwars.fandom.com/wiki/Ponda_Baba"
+    }
+  },
+  {
+    "name": "Saw Gerrera",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 498344,
+      "title": "Saw Gerrera",
+      "url": "https://starwars.fandom.com/wiki/Saw_Gerrera"
+    }
+  },
+  {
+    "name": "W1-LE",
+    "role": "contact",
+    "token_color": "white",
+    "wikia": {
+      "id": 503427,
+      "title": "W1-LE",
+      "url": "https://starwars.fandom.com/wiki/W1-LE"
+    }
+  },
+  {
+    "name": "Ziton Moj",
+    "role": "contact",
+    "token_color": "yellow",
+    "wikia": {
+      "id": 455610,
+      "title": "Ziton Moj",
+      "url": "https://starwars.fandom.com/wiki/Ziton_Moj"
+    }
   }
- ]
+]
