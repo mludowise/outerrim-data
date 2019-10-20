@@ -93,7 +93,7 @@
           "$ref": "#/definitions/card"
         }
       }
-    }
+    },
     "additionalProperties": false,
     "required": [
       "number",

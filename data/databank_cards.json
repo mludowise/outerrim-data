@@ -179,7 +179,7 @@
           "encounter_description": "\"Don't say 'smuggler',\" says the Corellian. \"I prefer 'freelance pilot for hire.' Speaking of, are you hiring?\"",
           "encounter_instructions": "You may spend [Credits]2,000 to gain the crew below and discard BoShek's token.",
           "crew": {
-            "ability": "If you do not roll a [Hit] when delivering <b>Illegal</b> cargo, you may reroll your die.",
+            "ability": "If you do not roll a [Hit] when delivering <b>ILLEGAL</b> cargo, you may reroll your die.",
             "skills": [
               "Piloting"
             ]
@@ -365,7 +365,7 @@
           "encounter_description": "This bodyguard and enforcer droid works for Cikatro Vizago…but with a little reprogramming, it could work for you.",
           "encounter_instructions": "If you have [Negative] Syndicate reputation, test Stealth. If you fail, your character suffers 2 damage.\nIf you have [Positive] or [Neutral] Syndicate reputation, you may test Tech. If you pass, gain the crew below and discard IG-RM's token.",
           "crew": {
-            "ability": "Gain +2[Health]",
+            "ability": "Gain +2[Health].",
             "skills": [
               "Strength"
             ],
@@ -554,18 +554,21 @@
     "number": 40,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "An Epic Game of Sabacc",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "This is it: the hand you've waited your whole life for. It's time to up the stakes.",
               "instructions": "You may place any amount of your credits on this card. If you do not, skip to step 3."
             },
             {
+              "label": "2",
               "description": "Will your opponent fold?",
               "instructions": "Your opponent may place the same amount of their credits on this card (or all of their credits if they do not have enough). If they do not, you gain the reward and any of the credits on this card."
             },
             {
+              "label": "3",
               "description": "All that remains is to play out this hand.",
               "instructions": "You choose to test either Knowledge or Tactics. Then your opponent chooses to test their Knowledge or Tactics.\nIf only 1 player passes, that player gains the reward and all the credits on this card.\nIf both players pass or both players fail, then repeat this step."
             }
@@ -573,18 +576,21 @@
         }
       },
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "A Friendly Game of Sabacc",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You are dealt a bad hand. Hilariously bad. Perhaps you can bluff your way to victory.",
               "instructions": "Test Influence. If you pass, skip to step 3."
             },
             {
+              "label": "2",
               "description": "With your weakness exposed, your opponent has an opportunity to finish the game quickly.",
               "instructions": "The other player tests Tactics. If they pass, they gain the reward."
             },
             {
+              "label": "3",
               "description": "You're back in the game and putting it all on the table. The winner will be decided by this hand.",
               "instructions": "You test Tactics. If you pass, you gain the reward. If you fail, the other player gains the reward."
             }
@@ -592,18 +598,21 @@
         }
       },
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "A Cutthroat Game of Sabacc",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You've barely started playing and you're already about to lose.",
               "instructions": "You can choose to cheat. If you do, skip to step 3."
             },
             {
+              "label": "2",
               "description": "Your opponent calls, and you're left with two options. Either take your losses or open fire.",
               "instructions": "You choose to either fight a ground combat against your opponent or let your opponent gain the reward.\nIf you fight a ground combat, the winner gains the reward."
             },
             {
+              "label": "3",
               "description": "You pull a card from your sleeve and hope your opponent doesn't notice.",
               "instructions": "You test Stealth. If you pass, you gain the reward. If you fail, the other player chooses to proceed to step 2 or test Influence.\nIf they test Influence and pass, they gain the reward. If they fail, you gain the reward."
             }
@@ -617,29 +626,52 @@
     "cards": [
       {
         "job_resolution": {
-          "name": "Tenuous Alliance",
-          "jobs": [
+          "name": "A Cutthroat Game of Sabacc",
+          "rows": [
             {
-              "faction": "Hutt",
-              "name": "Hutt Favor",
+              "label": "1",
+              "description": "You've barely started playing and you're already about to lose.",
+              "instructions": "You can choose to cheat. If you do, skip to step 3."
+            },
+            {
+              "label": "2",
+              "description": "Your opponent calls, and you're left with two options. Either take your losses or open fire.",
+              "instructions": "You choose to either fight a ground combat against your opponent or let your opponent gain the reward.\nIf you fight a ground combat, the winner gains the reward."
+            },
+            {
+              "label": "3",
+              "description": "You pull a card from your sleeve and hope your opponent doesn't notice.",
+              "instructions": "You test Stealth. If you pass, you gain the reward. If you fail, the other player chooses to proceed to step 2 or test Influence.\nIf they test Influence and pass, they gain the reward. If they fail, you gain the reward."
+            }
+          ]
+        }
+      },
+      {
+        "job_resolution": {
+          "name": "Tenuous Alliance",
+          "instructions": "Resolve the section below that matches the job you are resolving.",
+          "rows": [
+            {
+              "label": "[Hutt]",
+              "title": "Hutt Favor",
               "description": "The Hutt wonders if you work for his rivals.",
               "instructions": "If you have [Positive] Syndicate reputation, discard this job."
             },
             {
-              "faction": "Imperial",
-              "name": "Imperial Favor",
+              "label": "[Imperial]",
+              "title": "Imperial Favor",
               "description": "You are accused of being a Rebel sympathizer.",
               "instructions": "If you have [Positive] Rebel reputation, discard this job."
             },
             {
-              "faction": "Rebel",
-              "name": "Rebel Favor",
+              "label": "[Rebel]",
+              "title": "Rebel Favor",
               "description": "The Rebels probe your loyalty.",
               "instructions": "If you have [Positive] Imperial reputation, discard this job."
             },
             {
-              "faction": "Syndicate",
-              "name": "Syndicate Favor",
+              "label": "[Syndicate]",
+              "title": "Syndicate Favor",
               "description": "The boss fears that you may be allied with her enemies.",
               "instructions": "If you have [Positive] Hutt reputation, discard this job."
             }
@@ -649,28 +681,29 @@
       {
         "job_resolution": {
           "name": "Lost Faith",
-          "jobs": [
+          "instructions": "Resolve the section below that matches the job you are resolving.",
+          "rows": [
             {
-              "faction": "Hutt",
-              "name": "Hutt Favor",
+              "label": "[Hutt]",
+              "title": "Hutt Favor",
               "description": "The Hutts are not forgiving of failure.",
               "instructions": "Test Influence. If you fail, lose 1 Hutt reputation."
             },
             {
-              "faction": "Imperial",
-              "name": "Imperial Favor",
+              "label": "[Imperial]",
+              "title": "Imperial Favor",
               "description": "The Empire does not accept failure.",
               "instructions": "Test Influence. If you fail, lose 1 Imperial reputation."
             },
             {
-              "faction": "Rebel",
-              "name": "Rebel Favor",
+              "label": "[Rebel]",
+              "title": "Rebel Favor",
               "description": "Your recklessness has almost exposed the Rebellion. You claim that it was not your fault.",
               "instructions": "Test Influence. If you fail, lose 1 Rebel reputation."
             },
             {
-              "faction": "Syndicate",
-              "name": "Syndicate Favor",
+              "label": "[Syndicate]",
+              "title": "Syndicate Favor",
               "description": "Your failure is a sign of weakness.",
               "instructions": "Test Influence. If you fail, lose 1 Syndicate reputation."
             }
@@ -683,22 +716,26 @@
     "number": 42,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "The Casino Heist",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "The first part of the plan involves distracting the security guard with small talk.",
               "instructions": "Test Influence. If you fail, the job fails (keep the job card)."
             },
             {
+              "label": "2",
               "description": "You try to slice into their system and add some credits to your account.",
               "instructions": "Test Tech. If you fail, your character suffers 1 damage and skip to step 4."
             },
             {
+              "label": "3",
               "description": "Just as you're finishing up, a patrolling officer notices you. You'll need to quickly subdue him.",
               "instructions": "Test Strength. If you pass, complete this job."
             },
             {
+              "label": "4",
               "description": "An alarm is raised and security storms the room!",
               "instructions": "Fight a ground combat against the local security ([Ground Combat Value] 3). If you win and are not defeated, complete this job. If you lose, complete this step."
             }
@@ -711,22 +748,26 @@
     "number": 43,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Jabba's Hidden Stash",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "The first step of the plan involves taking an airspeeder through treacherous bluffs into a hidden cave.",
               "instructions": "Test Piloting. If you fail, your character suffers 2 damage."
             },
             {
+              "label": "2",
               "description": "You slip into the cave and see many guards blocking the entrance. There are too many of them, so you'll need to sneak by.",
               "instructions": "Test Stealth. If you fail, your character suffers 2 damage."
             },
             {
+              "label": "3",
               "description": "You find a back passageway, but the way through is treacherous. Is there another way in?",
               "instructions": "Test Knowledge. If you fail, your character suffers 2 damage."
             },
             {
+              "label": "4",
               "description": "The vault is booby-trapped. You try to disable it.",
               "instructions": "Test Tech. If you fail. your character suffers 2 damage. If you are not defeated, complete this job."
             }
@@ -739,22 +780,26 @@
     "number": 44,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Hijacking a Freighter",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You try to dock with the freighter without attracting attention.",
               "instructions": "Test Piloting. If you fail, your ship suffers 1 damage."
             },
             {
+              "label": "2",
               "description": "Once on the ship, you need to pull open a sealed compartment so you can slice the computer.",
               "instructions": "Test Strength and then test Tech.\nIf you pass both of them, skip to step 4. If you fail at least 1 of them, your ship suffers 1 damage."
             },
             {
+              "label": "3",
               "description": "The slicing fails, and you instead try to blow up the docking clamps.",
               "instructions": "Test Tactics. If you fail, your ship suffers 1 damage."
             },
             {
+              "label": "4",
               "description": "A swarm of Black Sun fighters are in pursuit. You try to draw them off.",
               "instructions": "Fight a ship combat against Black Sun Fighters ([Ship Combat Value] 3). If you win, prevent 1 damage from this combat. If you are not defeated, complete this job."
             }
@@ -767,28 +812,33 @@
     "number": 45,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "The Jewel of Yavin",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You'll need to find a safe path through the most dangerous part of the city.",
               "instructions": "Test Knowledge. If you fail, your character suffers 1 damage."
             },
             {
+              "label": "2",
               "description": "You run afoul of some local criminals.",
               "instructions": "Test Tactics. If you fail, your character suffers 1 damage unless you lose [Credits]3,000."
             },
             {
+              "label": "3",
               "description": "You must talk your way past security.",
               "instructions": "Test Influence. If you fail, your character suffers 1 damage."
             },
             {
+              "label": "4",
               "description": "Now to avoid the automated defense system.",
               "instructions": "Test Stealth. If you fail, your character suffers 2 damage."
             },
             {
+              "label": "5",
               "description": "The jewel sits before you. Just don't trip the alarm.",
-              "instructions": "Test Tech. If you pass, complete this job. If you fail, fight a ground combat atainst local security ([Ground Combat Value] 3). If you win, prevent 2 damage from this combat. Win or lose, if you are not defeated, complete this job."
+              "instructions": "Test Tech. If you pass, complete this job. If you fail, fight a ground combat atainst local security ([Ground Combat Value] 4). If you win, prevent 2 damage from this combat. Win or lose, if you are not defeated, complete this job."
             }
           ]
         }
@@ -799,26 +849,31 @@
     "number": 46,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "The Kessel Run",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You claim to be a crime lord looking to invest money in the space trade.",
               "instructions": "Test Influence. If you fail, the job fails (keep this card)."
             },
             {
+              "label": "2",
               "description": "You find the hyperfuel but you can hardly lift it.",
               "instructions": "Test Strength. If you fail, the job fails (keep this card)."
             },
             {
+              "label": "3",
               "description": "The auto-turrets open fire. Take them out!",
               "instructions": "Test Tactics. If you fail, your ship suffers 2 damage."
             },
             {
+              "label": "4",
               "description": "You stow the dangerous cargo as safely as you can.",
               "instructions": "Test Knowledge. If you fail, your ship suffers 2 damage."
             },
             {
+              "label": "5",
               "description": "A Star Destroyer appears and you plunge into the Maelstrom.",
               "instructions": "Move to the Maelstrom then test Piloting. If you fail, your ship suffers 1 damage and repeat this step. If you pass, complete this job."
             }
@@ -831,22 +886,26 @@
     "number": 47,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Rebel Prison Break",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You identify the Imperial ship and attempt to approach undetected.",
               "instructions": "Test Stealth. If you pass, skip to step 4."
             },
             {
+              "label": "2",
               "description": "You've been spotted and a squadron of TIE fighters moves to intercept you.",
               "instructions": "Fight a ship combat against TIE fighters ([Ship Combat Value] 3). If you win, skip to step 4."
             },
             {
+              "label": "3",
               "description": "One of the TIEs is still trailing you, so you fly dangerously close to the larger ship.",
               "instructions": "Test Piloting. If you fail, your ship suffers 2 damage."
             },
             {
+              "label": "4",
               "description": "You dock with the Imperial ship and find your way to the cell block. That's when the Stormtroopers arrive.",
               "instructions": "Fight a ground combat against Stormtroopers ([Ground Combat Value] 3). If you win and you are not defeated, complete this job. If you lose, repeat this step."
             }
@@ -859,22 +918,26 @@
     "number": 48,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Rebellion on Lothal",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You feign interest in the Rebel cause, hoping to gain access to their facilities.",
               "instructions": "Test Influence. If you pass, skip to step 3."
             },
             {
+              "label": "2",
               "description": "They see through your deception and attempt to subdue you.",
               "instructions": "Fight a ground combat against Rebel guards ([Ground Combat Value] 4). If you win, skip to step 4."
             },
             {
+              "label": "3",
               "description": "You attempt to steal several heavy crates of unstable explosives.",
               "instructions": "Test Strength. If you fail, your character suffers 2 damage."
             },
             {
+              "label": "4",
               "description": "You set some charges in the Rebel facility and attempt to escape before it explodes.",
               "instructions": "Test Tactics. If you fail, your character suffers 3 damage. If you are not defeated, complete this job."
             }
@@ -887,18 +950,21 @@
     "number": 49,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Relic of the Past",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You need to decipher your map to find the entrance to the temple.",
               "instructions": "Test Knowledge. If you fail, the job fails (keep this job)."
             },
             {
+              "label": "2",
               "description": "You enter the temple, but your first step triggers a trap. Proceed with caution!",
               "instructions": "Test Stealth. If you fail, your character suffers 1 damage."
             },
             {
+              "label": "3",
               "description": "You pluck the priceless relic off the pedestal, but the room starts to fill with water. A large boulder crashes down from the ceiling, blocking your only escape route.",
               "instructions": "Test Tactics. If you fail, your character suffers 1 damage and repeat this step. If you pass, complete this job."
             }
@@ -911,26 +977,31 @@
     "number": 50,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Rescue from the Mines",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "There's a back door to the mines…somewhere.",
               "instructions": "Test Knowledge. If you fail, skip to step 3."
             },
             {
+              "label": "2",
               "description": "You enter through a grate in the floor and make your way to the slave quarters.",
               "instructions": "Test Stealth. If you pass, skip to step 5."
             },
             {
+              "label": "3",
               "description": "The guards draw their blasters.",
               "instructions": "Fight a ground combat against Pyke sentinels ([Ground Combat Value] 4). If you win, skip to step 5."
             },
             {
+              "label": "4",
               "description": "The last sentinel brandishes a stun spear.",
               "instructions": "Test Strength. If you fail, your character suffers 1 damage and repeat this step."
             },
             {
+              "label": "5",
               "description": "The door to the prisoner's cell is locked, but so corroded with rust that one good kick should open it.",
               "instructions": "Test Strength. If you pass, complete this job. If you fail, your character suffers 1 damage and repeat this step."
             }
@@ -943,22 +1014,26 @@
     "number": 51,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Rooting Out Spies",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You ask an information broker about the presence of Imperial spies.",
               "instructions": "Test Influence. If you pass, skip to step 3."
             },
             {
+              "label": "2",
               "description": "The broker betrays you, and her minions try to punish you for poking around.",
               "instructions": "Fight a ground combat against minions ([Ground Combat Value] 3). If you win, prevent 1 damage from this combat."
             },
             {
+              "label": "3",
               "description": "The spies are getting away, but you think you know a shortcut through the basement.",
               "instructions": "Test Knowledge. If you fail, your character suffers 1 damage and repeat this step."
             },
             {
+              "label": "4",
               "description": "You locate the spies, but they are about to leave on their ship. You open fire from a distance, hoping to hit your target.",
               "instructions": "Test Tactics. If you fail, your character suffers 1 damage and repeat this step. If you pass, complete this job."
             }
@@ -971,22 +1046,26 @@
     "number": 52,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Steal a Fathier",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "You intend to steal a fathier favored to win tomorrow's race. You'll need to find a hole in the stable's security first.",
               "instructions": "Test Knowledge. If you fail, the job fails (keep this card)."
             },
             {
+              "label": "2",
               "description": "You discover there is a late-night shift change for the stable guards that should give you an opening.",
               "instructions": "Test Stealth. If you pass, skip to step 4."
             },
             {
+              "label": "3",
               "description": "The guards spot you and open fire!",
               "instructions": "Fight a ground combat against guards ([Ground Combat Value] 3). If you win, prevent 1 damage from this combat."
             },
             {
+              "label": "4",
               "description": "Now to tranquilize the beast and haul it back to your ship.",
               "instructions": "Test Strength. If you fail, return to step 3. If you pass, complete this job."
             }
@@ -999,22 +1078,26 @@
     "number": 53,
     "cards": [
       {
-        "job_encounter": {
+        "job_resolution": {
           "name": "Wookiee Slave Trade",
-          "steps": [
+          "rows": [
             {
+              "label": "1",
               "description": "The slaver's ship has landed on the planet's surface, and a few Tandoshan guards stand watch.",
               "instructions": "Test Stealth. If you pass, skip to step 3."
             },
             {
+              "label": "2",
               "description": "The guards see you coming and draw their weapons.",
               "instructions": "Fight a ground combat against Tandoshan guards ([Ground Combat Value] 3). If you win, prevent 1 damage from this combat."
             },
             {
+              "label": "3",
               "description": "You board the ship and see the slaves locked in a peculiar cell. Hopefully there are no booby traps.",
               "instructions": "Test Knowledge, if you fail, your character suffers 1 damage."
             },
             {
+              "label": "4",
               "description": "You try to take control of the ship so the Wookiees can fly their way back home.",
               "instructions": "Test Tech. If you fail, your character suffers 1 damage and repeat this step. If you pass, complete this job."
             }

@@ -3,51 +3,60 @@
   "id": "job_resolution.json#",
   "title": "Schema for job encounter cards",
   "type": "object",
+  "definitions": {
+    "row": {
+      "type": "object",
+      "description": "Row on this card.",
+      "properties": {
+        "label": {
+          "description": "The label corresponding to this row.",
+          "$ref": "definitions.json#/definitions/icon_containing_text"
+        },
+        "title": {
+          "description": "The title of this row, as written on the card itself.",
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "description": "The description of the resolution for this job, as written on the card itself.",
+          "type": "string",
+          "minLength": 1
+        },
+        "instructions": {
+          "description": "The instructions for the resolution for this job, as written on the card itself.",
+          "$ref": "definitions.json#/definitions/icon_containing_text"
+        }
+      },
+      "required": [
+        "label",
+        "description",
+        "instructions"
+      ],
+      "additionalProperties": false
+    }
+  },
   "properties": {
     "name": {
       "description": "Card name, as written on the card itself.",
       "type": "string",
       "minLength": 1
     },
-    "jobs": {
+    "instructions": {
+      "description": "Instructions, as written on the card itself.",
+      "$ref": "definitions.json#/definitions/icon_containing_text"
+    },
+    "rows": {
       "description": "List of jobs on this card.",
       "type": "array",
       "items": {
-        "type": "object",
-        "description": "Job on this card.",
-        "properties": {
-          "faction": {
-            "description": "The faction corresponding to this job.",
-            "$ref": "definitions.json#/definitions/faction"
-          },
-          "name": {
-            "description": "The name of this job, as written on the card itself.",
-            "type": "string",
-            "minLength": 1
-          },
-          "description": {
-            "description": "The description of the resolution for this job, as written on the card itself.",
-            "type": "string",
-            "minLength": 1
-          },
-          "instructions": {
-            "description": "The instructions for the resolution for this job, as written on the card itself.",
-            "$ref": "definitions.json#/definitions/icon_containing_text"
-          }
-        },
-        "required": [
-          "faction",
-          "name",
-          "description",
-          "instructions"
-        ]
+        "$ref": "#/definitions/row"
       },
       "minItems": 1
     }
   },
   "required": [
     "name",
-    "jobs"
+    "rows"
   ],
   "additionalProperties": false
 }
