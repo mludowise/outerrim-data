@@ -9,10 +9,6 @@
       "type": "string",
       "minLength": 1
     },
-    "token_color": {
-      "description": "Color of this contact's token.",
-      "$ref": "definitions.json#/definitions/contact_token_color"
-    },
     "encounter_description": {
       "description": "The description of this encounter, as written on the card itself.",
       "type": "string",
@@ -40,7 +36,6 @@
   },
   "required": [
     "name",
-    "token_color",
     "encounter_description",
     "encounter_instructions"
   ],

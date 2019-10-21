@@ -102,7 +102,6 @@
       {
         "contact": {
           "name": "4-LOM",
-          "token_color": "green",
           "encounter_description": "Logic glitches turned a protocol droid into a bounty hunter, eager for new opportunities.",
           "encounter_instructions": "You may spend [Credits]3,000 to gain the crew below and discard 4-LOM's token. Reduce this by [Credits]1,000 for each bounty you have.",
           "crew": {
@@ -122,7 +121,6 @@
       {
         "contact": {
           "name": "Bib Fortuna",
-          "token_color": "green",
           "encounter_description": "\"Day wanna wonga?\" he asks as he steps from the shadows. This is your chance to gain the ear of Jabba the Hutt.",
           "encounter_instructions": "You may spend [Credits]2,000 to choose a player. Make that player gain or lose 1 Hutt reputation.\nAfter resolving this card, move Bib Fortuna's token to an empty contact space on Tatooine. If there is not an empty contact space, exchange this token with a contact token on Tatooine."
         }
@@ -135,7 +133,6 @@
       {
         "contact": {
           "name": "Black Krrsantan",
-          "token_color": "yellow",
           "encounter_description": "The infamous Wookiee bounty hunter could be valuable ally…or a dangerous enemy.",
           "encounter_instructions": "If you have a bounty or job, you may spend [Credits]1,000 to gain the crew below and discard Black Krrsantan's token.\nIf you do not gain the crew and you have at least 1 [Negative] reputation, fight a ground combat ([Ground Combat Value] 4). If you win, discard Black Krrsantan's token.",
           "crew": {
@@ -155,7 +152,6 @@
       {
         "contact": {
           "name": "Black Sun Agent",
-          "token_color": "white",
           "encounter_description": "Black Sun has agents everywhere. Their network of connections is the syndicate's greatest strength.",
           "encounter_instructions": "If you have [Negative] Syndicate reputation, test Stealth. If you fail, your character suffers 2 damage.\nIf you have [Positive] or [Neutral] Syndicate reputation, you may test Influence. If you pass, gain the crew below and discard Black Sun Agent's token. If you would fail, you may spend [Credits]2,000 to pass this test instead.",
           "crew": {
@@ -175,7 +171,6 @@
       {
         "contact": {
           "name": "BoShek",
-          "token_color": "green",
           "encounter_description": "\"Don't say 'smuggler',\" says the Corellian. \"I prefer 'freelance pilot for hire.' Speaking of, are you hiring?\"",
           "encounter_instructions": "You may spend [Credits]2,000 to gain the crew below and discard BoShek's token.",
           "crew": {
@@ -194,7 +189,6 @@
       {
         "contact": {
           "name": "Chewbacca",
-          "token_color": "yellow",
           "encounter_description": "In his long life, Chewbacca has learned many useful skills. You couldn't ask for a better ally.",
           "encounter_instructions": "If you are Han solo, you may gain the crew below and discard Chrewbacca's token.\nOtherwise you may spend [Credits]4,000 to gain the crew below and discard Chrewbacca's token.",
           "ally": "Han Solo",
@@ -215,7 +209,6 @@
       {
         "contact": {
           "name": "Dengar",
-          "token_color": "yellow",
           "encounter_description": "Dengar has a fearsome reputation and decades of experience. You can only hope that you're not the bounty he's after.",
           "encounter_instructions": "If you have at least 1 [Negative] reputation, fight a ground combat against Dengar ([Ground Combat Value] 5). If you win, gain 1 fame and discard Dengar's token.\nIf you lose, or have no [Negative] reputation, place Dengar's token facedown on his contact space or an empty contact space."
         }
@@ -228,7 +221,6 @@
       {
         "contact": {
           "name": "Doctor Evazan",
-          "token_color": "white",
           "encounter_description": "\"I don't like you either.\"",
           "encounter_instructions": "Test Strength. If you fail, your character suffers 2 damage. Pass or fail, you may spend [Credits]2,000 to gain the crew below and discard Doctor Evazan's token.",
           "crew": {
@@ -247,7 +239,6 @@
       {
         "contact": {
           "name": "Garindan",
-          "token_color": "white",
           "encounter_description": "This Kubaz spy regularly sells information to the Empire, but he'll work for you if the price is right.",
           "encounter_instructions": "If you have [Negative] Imperial reputation or [Positive] Rebel reputation, test Stealth. If you fail, move the Imperial patrol directly to your space and encounter it.\nIf you pass or did not perform the test, you may spend [Credits]2,000 to gain the crew below and discard Garindan's token.",
           "crew": {
@@ -267,7 +258,6 @@
       {
         "contact": {
           "name": "Grand Admiral Thrawn",
-          "token_color": "yellow",
           "encounter_description": "The Grand Admiral is looking for someone to sabotage a Rebel cell. You get the feeling that you're only one part of a larger plan.",
           "encounter_instructions": "If you have [Positive] or [Neutral] Imperial reputation, you may discard Grand Admiral Thrawn's token and gain the job below.\nIf you have [Negative] Imperial reputation fight a ground combat against Deathtroopers ([Ground Combat Value] 4). If you win, prevent 2 damage from this combat.",
           "job": {
@@ -302,7 +292,6 @@
       {
         "contact": {
           "name": "Greedo",
-          "token_color": "green",
           "encounter_description": "Greedo has been hired by Jabba the Hutt to hunt down those who have wronged him.",
           "encounter_instructions": "If you have [Negative] Hutt reputation, test Stealth. If you fail, your character suffers 2 damage.\nIf you have [Positive] or [Neutral] Hutt reputation, you may test Influence. If you pass, gain the crew below and discard Greedo's token. If you would fail, you may spend [Credits]2,000 to pass this test instead.",
           "crew": {
@@ -322,7 +311,6 @@
       {
         "contact": {
           "name": "Hera Syndulla",
-          "token_color": "yellow",
           "encounter_description": "\"There's enough darkness in the galaxy right now. Let me know if you want to spread a little light.\"",
           "encounter_instructions": "If you have [Negative] Imperial reputation or [Positive] Rebel reputation, you may spend [Credits]2,000 to gain the crew below and discard Hera Syndulla's token.\nIf you do not gain the crew, you may spend [Credits]2,000 to gain 1 Rebel reputation.",
           "crew": {
@@ -342,7 +330,6 @@
       {
         "contact": {
           "name": "Hondo Ohnaka",
-          "token_color": "green",
           "encounter_description": "\"Haha my friends! With my brains and your…ahem…capital…why, we will both be rich!\"",
           "encounter_instructions": "You may spend [Credits]3,000 to gain the crew below and discard Hondo Ohnaka's token.",
           "crew": {
@@ -361,7 +348,6 @@
       {
         "contact": {
           "name": "IG-RM Droid",
-          "token_color": "green",
           "encounter_description": "This bodyguard and enforcer droid works for Cikatro Vizago…but with a little reprogramming, it could work for you.",
           "encounter_instructions": "If you have [Negative] Syndicate reputation, test Stealth. If you fail, your character suffers 2 damage.\nIf you have [Positive] or [Neutral] Syndicate reputation, you may test Tech. If you pass, gain the crew below and discard IG-RM's token.",
           "crew": {
@@ -382,7 +368,6 @@
       {
         "contact": {
           "name": "K-2SO",
-          "token_color": "yellow",
           "encounter_description": "He thinks you might be a rebel spy, so you'll need a creative way of convincing him otherwise.",
           "encounter_instructions": "You may test Tech. If you pass, you may gain the crew below and discard K2-SO's token. If you fail and you have either [Positive] Rebel reputation or [Negative] Imperial reputation, your character suffers 3 damage.",
           "crew": {
@@ -403,7 +388,6 @@
       {
         "contact": {
           "name": "Leia Organa",
-          "token_color": "green",
           "encounter_description": "\"In a time of fear, we have only one weapon left: hope. Fortunately, that is all we require.\"",
           "encounter_instructions": "If you have [Positive] or [Neutral] Rebel reputation, you may discard Leia Organa's token to gain the job below.\nIf you do not gain the job, you may spend [Credits]2,000 to gain the 1 Rebel reputation.",
           "job": {
@@ -442,7 +426,6 @@
       {
         "contact": {
           "name": "Lobot",
-          "token_color": "white",
           "encounter_description": "Lobot's brain enhancing device allows him direct contact with complex computer systems. Surely you can find a use for such skills.",
           "encounter_instructions": "If you are Lando Calrissian, you may gain the crew below and discard Lobot's token.\nOtherwise you may spend [Credits]2,000 to gain the crew below and discard Lobot's token.",
           "ally": "Lando Calrissian",
@@ -462,7 +445,6 @@
       {
         "contact": {
           "name": "Maz Kanata",
-          "token_color": "yellow",
           "encounter_description": "They call her the smuggler queen of Takodana. It seems there's nothing Maz does not know.",
           "encounter_instructions": "If you have [Negative] or [Neutral] Imperial reputation, you may spend [Credits]4,000 to gain the crew below and discard Maz Kanata's token.\nIf you do not gain this crew, move Maz Kanata's token to an empty space on Takodana. If there is not an empty contact space, exchange this token with a contact on Takodana.",
           "crew": {
@@ -482,7 +464,6 @@
       {
         "contact": {
           "name": "Ponda Baba",
-          "token_color": "white",
           "encounter_description": "He doesn't like you, but a rew credits may change his mind.",
           "encounter_instructions": "Test Strength. If you fail, your character suffers 2 damage. Pass or fail, you may spend [Credits]3,000 to gain the crew below and discard Ponda Baba's token.",
           "crew": {
@@ -501,7 +482,6 @@
       {
         "contact": {
           "name": "Saw Gerrera",
-          "token_color": "yellow",
           "encounter_description": "Even the Rebel Alliance finds Saw Gerrera too extreme.",
           "encounter_instructions": "If you are Jyn Erso, you may gain the crew below and discard Saw Gerrera's token.\nIf you are not Jyn Erso and you have [Negative] Rebel reputation or [Positive] Imperial reputation, test Stealth. If you fail, your character suffers 2 damage.\nIf you did not test Stealth, you may test Influence. If you pass, gain the crew below and discard Saw Gurrera's token.",
           "ally": "Jyn Erso",
@@ -522,7 +502,6 @@
       {
         "contact": {
           "name": "W1-LE",
-          "token_color": "white",
           "encounter_description": "Most droids are rather high-strung, so W1-LE's laid back demeanor and easy charm are a pleasant surprise.",
           "encounter_instructions": "If you are Lando Calrissian, you may gain the crew below and discard W1-LE's token.\nOtherwise, you may test Tech. If you pass, gain the crew below and discard W1-LE's token. If you would fail, you may spend [Credits]3,000 to pass this test instead.",
           "ally": "Lando Calrissian",
@@ -543,7 +522,6 @@
       {
         "contact": {
           "name": "Ziton Moj",
-          "token_color": "yellow",
           "encounter_description": "\"This opportunity benefits us both. But there will be a cost.\"",
           "encounter_instructions": "You may lose 1 Syndicate reputation to either gain [Credits]5,000 or take up to [Credits]5,000 from a player that has more fame than you."
         }
