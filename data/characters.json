@@ -1,5 +1,5 @@
-[
-  {
+{
+  "4-LOM": {
     "name": "4-LOM",
     "role": "contact",
     "token_color": "green",
@@ -9,7 +9,7 @@
       "url": "https://starwars.fandom.com/wiki/4-LOM"
     }
   },
-  {
+  "Bib Fortuna": {
     "name": "Bib Fortuna",
     "role": "contact",
     "token_color": "green",
@@ -19,7 +19,7 @@
       "url": "https://starwars.fandom.com/wiki/Bib_Fortuna"
     }
   },
-  {
+  "Black Krrsantan": {
     "name": "Black Krrsantan",
     "role": "contact",
     "token_color": "yellow",
@@ -29,7 +29,7 @@
       "url": "https://starwars.fandom.com/wiki/Black_Krrsantan"
     }
   },
-  {
+  "Black Sun Agent": {
     "name": "Black Sun Agent",
     "role": "contact",
     "token_color": "white",
@@ -39,7 +39,7 @@
       "url": "https://starwars.fandom.com/wiki/Black_Sun"
     }
   },
-  {
+  "Boba Fett": {
     "name": "Boba Fett",
     "role": "player",
     "wikia": {
@@ -48,7 +48,7 @@
       "url": "https://starwars.fandom.com/wiki/Boba_Fett"
     }
   },
-  {
+  "BoShek": {
     "name": "BoShek",
     "role": "contact",
     "token_color": "green",
@@ -58,7 +58,7 @@
       "url": "https://starwars.fandom.com/wiki/BoShek"
     }
   },
-  {
+  "Bossk": {
     "name": "Bossk",
     "role": "player",
     "wikia": {
@@ -67,7 +67,7 @@
       "url": "https://starwars.fandom.com/wiki/Bossk"
     }
   },
-  {
+  "Chewbacca": {
     "name": "Chewbacca",
     "role": "contact",
     "token_color": "yellow",
@@ -77,7 +77,7 @@
       "url": "https://starwars.fandom.com/wiki/Chewbacca"
     }
   },
-  {
+  "Dengar": {
     "name": "Dengar",
     "role": "contact",
     "token_color": "yellow",
@@ -87,7 +87,7 @@
       "url": "https://starwars.fandom.com/wiki/Dengar"
     }
   },
-  {
+  "Doctor Aphra": {
     "name": "Doctor Aphra",
     "role": "player",
     "wikia": {
@@ -96,7 +96,7 @@
       "url": "https://starwars.fandom.com/wiki/Star_Wars:_Doctor_Aphra"
     }
   },
-  {
+  "Doctor Evazan": {
     "name": "Doctor Evazan",
     "role": "contact",
     "token_color": "white",
@@ -106,7 +106,7 @@
       "url": "https://starwars.fandom.com/wiki/Cornelius_Evazan"
     }
   },
-  {
+  "Garindan": {
     "name": "Garindan",
     "role": "contact",
     "token_color": "white",
@@ -116,7 +116,7 @@
       "url": "https://starwars.fandom.com/wiki/Garindan"
     }
   },
-  {
+  "Grand Admiral Thrawn": {
     "name": "Grand Admiral Thrawn",
     "role": "contact",
     "token_color": "yellow",
@@ -126,7 +126,7 @@
       "url": "https://starwars.fandom.com/wiki/Mitth%27raw%27nuruodo"
     }
   },
-  {
+  "Greedo": {
     "name": "Greedo",
     "role": "contact",
     "token_color": "green",
@@ -136,7 +136,7 @@
       "url": "https://starwars.fandom.com/wiki/Greedo"
     }
   },
-  {
+  "Han Solo": {
     "name": "Han Solo",
     "role": "player",
     "wikia": {
@@ -145,7 +145,7 @@
       "url": "https://starwars.fandom.com/wiki/Han_Solo"
     }
   },
-  {
+  "Hera Syndulla": {
     "name": "Hera Syndulla",
     "role": "contact",
     "token_color": "yellow",
@@ -155,7 +155,7 @@
       "url": "https://starwars.fandom.com/wiki/Hera_Syndulla"
     }
   },
-  {
+  "Hondo Ohnaka": {
     "name": "Hondo Ohnaka",
     "role": "contact",
     "token_color": "green",
@@ -165,7 +165,7 @@
       "url": "https://starwars.fandom.com/wiki/Hondo_Ohnaka"
     }
   },
-  {
+  "IG-88 [Droid]": {
     "name": "IG-88 [Droid]",
     "role": "player",
     "wikia": {
@@ -174,7 +174,7 @@
       "url": "https://starwars.fandom.com/wiki/IG-88"
     }
   },
-  {
+  "IG-RM Droid": {
     "name": "IG-RM Droid",
     "role": "contact",
     "token_color": "green",
@@ -184,7 +184,7 @@
       "url": "https://starwars.fandom.com/wiki/IG-RM"
     }
   },
-  {
+  "Jyn Erso": {
     "name": "Jyn Erso",
     "role": "player",
     "wikia": {
@@ -193,7 +193,7 @@
       "url": "https://starwars.fandom.com/wiki/Jyn_Erso"
     }
   },
-  {
+  "K-2SO": {
     "name": "K-2SO",
     "role": "contact",
     "token_color": "yellow",
@@ -203,7 +203,7 @@
       "url": "https://starwars.fandom.com/wiki/K-2SO"
     }
   },
-  {
+  "Ketsu Onyo": {
     "name": "Ketsu Onyo",
     "role": "player",
     "wikia": {
@@ -212,7 +212,7 @@
       "url": "https://starwars.fandom.com/wiki/Ketsu_Onyo"
     }
   },
-  {
+  "Lando Calrissian": {
     "name": "Lando Calrissian",
     "role": "player",
     "wikia": {
@@ -221,7 +221,7 @@
       "url": "https://starwars.fandom.com/wiki/Lando_Calrissian"
     }
   },
-  {
+  "Leia Organa": {
     "name": "Leia Organa",
     "role": "contact",
     "token_color": "green",
@@ -231,7 +231,7 @@
       "url": "https://starwars.fandom.com/wiki/Leia_Organa"
     }
   },
-  {
+  "Lobot": {
     "name": "Lobot",
     "role": "contact",
     "token_color": "white",
@@ -241,7 +241,7 @@
       "url": "https://starwars.fandom.com/wiki/Lobot"
     }
   },
-  {
+  "Maz Kanata": {
     "name": "Maz Kanata",
     "role": "contact",
     "token_color": "yellow",
@@ -251,7 +251,7 @@
       "url": "https://starwars.fandom.com/wiki/Maz_Kanata"
     }
   },
-  {
+  "Ponda Baba": {
     "name": "Ponda Baba",
     "role": "contact",
     "token_color": "white",
@@ -261,7 +261,7 @@
       "url": "https://starwars.fandom.com/wiki/Ponda_Baba"
     }
   },
-  {
+  "Saw Gerrera": {
     "name": "Saw Gerrera",
     "role": "contact",
     "token_color": "yellow",
@@ -271,7 +271,7 @@
       "url": "https://starwars.fandom.com/wiki/Saw_Gerrera"
     }
   },
-  {
+  "W1-LE": {
     "name": "W1-LE",
     "role": "contact",
     "token_color": "white",
@@ -281,7 +281,7 @@
       "url": "https://starwars.fandom.com/wiki/W1-LE"
     }
   },
-  {
+  "Ziton Moj": {
     "name": "Ziton Moj",
     "role": "contact",
     "token_color": "yellow",
@@ -291,4 +291,4 @@
       "url": "https://starwars.fandom.com/wiki/Ziton_Moj"
     }
   }
-]
+}
