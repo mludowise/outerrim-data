@@ -63,8 +63,8 @@
       "additionalProperties": false
     }
   },
-  "type": "array",
-  "items": {
+  "type": "object",
+  "additionalProperties": {
     "$ref": "#/definitions/character"
   }
 }
