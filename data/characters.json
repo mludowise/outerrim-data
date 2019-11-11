@@ -271,6 +271,15 @@
       "url": "https://starwars.fandom.com/wiki/Saw_Gerrera"
     }
   },
+  "Sy Snootles": {
+    "name": "Sy Snootles",
+    "role": "crew",
+    "wikia": {
+      "id": 471754,
+      "title": "Sy Snootles",
+      "url": "https://starwars.fandom.com/wiki/Sy_Snootles"
+    }
+  },
   "W1-LE": {
     "name": "W1-LE",
     "role": "contact",
