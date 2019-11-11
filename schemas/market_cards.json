@@ -18,7 +18,8 @@
       "required": [
         "faction",
         "spaces"
-      ]
+      ],
+      "additionalProperties": false
     },
     "market_card": {
       "description": "A market card in the game.",
@@ -47,9 +48,6 @@
             },
             "patrol_movement": {
               "$ref": "#/definitions/patrol_movement"
-            },
-            "cargo": {
-              "$ref": "cargo.json"
             }
           },
           "required": [
