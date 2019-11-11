@@ -53,6 +53,10 @@
       "description": "Number of slots this ship has that can be used for either crew or bounty.",
       "type": "integer",
       "minimum": 0
+    },
+    "wikia": {
+      "description": "Wikia article for this ship, if it exists.",
+      "$ref": "definitions.json#/definitions/wikia"
     }
   },
   "required": [

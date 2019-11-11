@@ -7,7 +7,12 @@
       "hull": 4,
       "cargo": 1,
       "mod": 1,
-      "crew": 1
+      "crew": 1,
+      "wikia": {
+        "title": "G-1A starfighter",
+        "id": 628633,
+        "url": "https://starwars.fandom.com/wiki/G-1A_starfighter"
+      }
     }
   },
   {
@@ -18,7 +23,12 @@
       "hull": 3,
       "cargo": 1,
       "mod": 1,
-      "crew": 1
+      "crew": 1,
+      "wikia": {
+        "title": "G9 Rigger-class light freighter",
+        "id": 507656,
+        "url": "https://starwars.fandom.com/wiki/G9_Rigger-class_light_freighter"
+      }
     }
   },
   {
@@ -32,7 +42,12 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Aggressor assault fighter",
+        "id": 628500,
+        "url": "https://starwars.fandom.com/wiki/Aggressor_assault_fighter"
+      }
     },
     "unlocked_ability_name": "Long Range Icon Cannon",
     "unlocked_ability": "When you win a combat against a patrol, do not lose reputation with that patrol's faction.",
@@ -45,7 +60,12 @@
       "cargo_mod": 1,
       "mod": 1,
       "crew": 2,
-      "bounty": 1
+      "bounty": 1,
+      "wikia": {
+        "title": "IG-2000",
+        "id": 625412,
+        "url": "https://starwars.fandom.com/wiki/IG-2000"
+      }
     }
   },
   {
@@ -59,7 +79,12 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Firespray-31-class patrol and attack craft",
+        "id": 517954,
+        "url": "https://starwars.fandom.com/wiki/Firespray-31-class_patrol_and_attack_craft"
+      }
     },
     "unlocked_ability_name": "Stealth Device",
     "unlocked_ability": "When you move into a patrol's space, you may test Stealth. If you pass, you do not have to end your movement in that space.",
@@ -71,7 +96,12 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 2,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Slave I",
+        "id": 457703,
+        "url": "https://starwars.fandom.com/wiki/Slave_I"
+      }
     }
   },
   {
@@ -84,7 +114,12 @@
       "hull": 5,
       "cargo": 1,
       "cargo_mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "GX1 short hauler",
+        "id": 518275,
+        "url": "https://starwars.fandom.com/wiki/GX1_short_hauler"
+      }
     },
     "unlocked_ability_name": "Diplomatic Mission",
     "unlocked_ability": "During your encounter step, you are not forced to encounter patrols that you have [Negative] reputation with.",
@@ -95,7 +130,12 @@
       "hull": 5,
       "cargo": 1,
       "cargo_mod": 1,
-      "crew": 3
+      "crew": 3,
+      "wikia": {
+        "title": "Valorous (GX1 short hauler)",
+        "id": 539997,
+        "url": "https://starwars.fandom.com/wiki/Valorous_(GX1_short_hauler)"
+      }
     }
   },
   {
@@ -119,7 +159,12 @@
       "hull": 5,
       "cargo": 2,
       "mod": 1,
-      "crew": 3
+      "crew": 3,
+      "wikia": {
+        "title": "Ark Angel",
+        "id": 497945,
+        "url": "https://starwars.fandom.com/wiki/Ark_Angel"
+      }
     }
   },
   {
@@ -132,7 +177,12 @@
       "hull": 4,
       "cargo": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "HWK-290 freighter",
+        "id": 474644,
+        "url": "https://starwars.fandom.com/wiki/HWK-290_freighter"
+      }
     },
     "unlocked_ability_name": "Anti-Personnel Blaster Turret",
     "unlocked_ability": "Gain +1 [Ground Combat Value].",
@@ -143,7 +193,12 @@
       "hull": 4,
       "cargo": 2,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Moldy Crow",
+        "id": 5797,
+        "url": "https://starwars.fandom.com/wiki/Moldy_Crow"
+      }
     }
   },
   {
@@ -156,7 +211,12 @@
       "hull": 5,
       "cargo": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Lancer-class pursuit craft",
+        "id": 549729,
+        "url": "https://starwars.fandom.com/wiki/Lancer-class_pursuit_craft"
+      }
     },
     "unlocked_ability_name": "Tractor Beam",
     "unlocked_ability": "When another player moves into your space, you may force them to end their movement.",
@@ -168,7 +228,12 @@
       "cargo": 1,
       "mod": 1,
       "crew": 2,
-      "crew_bounty": 1
+      "crew_bounty": 1,
+      "wikia": {
+        "title": "Shadow Caster",
+        "id": 519223,
+        "url": "https://starwars.fandom.com/wiki/Shadow_Caster"
+      }
     }
   },
   {
@@ -182,7 +247,12 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 1,
-      "crew": 3
+      "crew": 3,
+      "wikia": {
+        "title": "YT-1300 light freighter",
+        "id": 483437,
+        "url": "https://starwars.fandom.com/wiki/YT-1300_light_freighter"
+      }
     },
     "unlocked_ability_name": "Special Modifications",
     "unlocked_ability": "When you are rolling a die to deliver <b>ILLEGAL</b> cargo, you may turn a [Focus] or [Crit] result to a [Hit].",
@@ -194,8 +264,14 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 1,
-      "crew": 3
-    },
+      "crew": 3,
+      "wikia": {
+        "title": "Millennium Falcon",
+        "id": 453100,
+        "url": "https://starwars.fandom.com/wiki/Millennium_Falcon"
+      }
+    }
+  },
   {
     "price": 15,
     "goal": "When you recover at least 1 damage from this ship, spend [Credits]7,000 to gain 1 fame and flip this sheet.",
@@ -206,7 +282,12 @@
       "hull": 5,
       "cargo": 2,
       "cargo_mod": 1,
-      "crew": 3
+      "crew": 3,
+      "wikia": {
+        "title": "YV-666 light freighter",
+        "id": 496508,
+        "url": "https://starwars.fandom.com/wiki/YV-666_light_freighter"
+      }
     },
     "unlocked_ability_name": "Nashtan Pup",
     "unlocked_ability": "When you would become defeated during a ship combat, roll a die. On a [Focus] or [Hit] result, recover 2 damage from your ship instead.",
@@ -217,8 +298,12 @@
       "hull": 5,
       "cargo": 2,
       "cargo_mod": 1,
-      "crew": 3
+      "crew": 3,
+      "wikia": {
+        "title": "Hound's Tooth",
+        "id": 496510,
+        "url": "https://starwars.fandom.com/wiki/Hound's_Tooth"
+      }
     }
-  }
   }
 ]

@@ -9,7 +9,12 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Aggressor assault fighter",
+        "id": 628500,
+        "url": "https://starwars.fandom.com/wiki/Aggressor_assault_fighter"
+      }
     }
   },
   {
@@ -22,7 +27,12 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Firespray-31-class patrol and attack craft",
+        "id": 517954,
+        "url": "https://starwars.fandom.com/wiki/Firespray-31-class_patrol_and_attack_craft"
+      }
     }
   },
   {
@@ -34,7 +44,12 @@
       "hull": 5,
       "cargo": 1,
       "cargo_mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "GX1 short hauler",
+        "id": 518275,
+        "url": "https://starwars.fandom.com/wiki/GX1_short_hauler"
+      }
     }
   },
   {
@@ -58,7 +73,12 @@
       "hull": 4,
       "cargo": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "HWK-290 freighter",
+        "id": 474644,
+        "url": "https://starwars.fandom.com/wiki/HWK-290_freighter"
+      }
     }
   },
   {
@@ -70,7 +90,12 @@
       "hull": 5,
       "cargo": 1,
       "mod": 1,
-      "crew": 2
+      "crew": 2,
+      "wikia": {
+        "title": "Lancer-class pursuit craft",
+        "id": 549729,
+        "url": "https://starwars.fandom.com/wiki/Lancer-class_pursuit_craft"
+      }
     }
   },
   {
@@ -83,7 +108,12 @@
       "cargo": 1,
       "cargo_mod": 1,
       "mod": 1,
-      "crew": 3
+      "crew": 3,
+      "wikia": {
+        "title": "YT-1300 light freighter",
+        "id": 483437,
+        "url": "https://starwars.fandom.com/wiki/YT-1300_light_freighter"
+      }
     }
   },
   {
@@ -95,7 +125,12 @@
       "hull": 5,
       "cargo": 2,
       "cargo_mod": 1,
-      "crew": 3
+      "crew": 3,
+      "wikia": {
+        "title": "YV-666 light freighter",
+        "id": 496508,
+        "url": "https://starwars.fandom.com/wiki/YV-666_light_freighter"
+      }
     }
   },
   {

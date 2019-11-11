@@ -19,7 +19,7 @@
         },
         "wikia": {
           "description": "Wikia article for this character, if it exists.",
-          "$ref": "#/definitions/wikia"
+          "$ref": "definitions.json#/definitions/wikia"
         }
       },
       "required": [
@@ -37,32 +37,6 @@
         "crew",
       ]
     },
-    "wikia": {
-      "properties": {
-        "id": {
-          "description": "Page id for this article.",
-          "type": "integer",
-          "minimum": 1
-        },
-        "title": {
-          "description": "Article title.",
-          "type": "string",
-          "minLength": 1
-        },
-        "url": {
-          "description": "URL path for this article.",
-          "type": "string",
-          "format": "^https\\://starwars\\.fandom\\.com.+$",
-          "minLength": 28
-        }
-      },
-      "required": [
-        "id",
-        "title",
-        "url"
-      ],
-      "additionalProperties": false
-    }
   },
   "type": "object",
   "additionalProperties": {
