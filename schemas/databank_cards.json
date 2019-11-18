@@ -69,27 +69,15 @@
       "additionalProperties": false
     }
   },
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "number": {
-        "description": "The number of this card.",
-        "type": "integer",
-        "minimum": 1
-      },
-      "cards": {
-        "description": "Cards in the deck corresponding to this number.",
-        "type": "array",
-        "items": {
-          "$ref": "#/definitions/card"
-        }
+  "type": "object",
+  "patternProperties": {
+    "\\d+": {
+      "description": "Cards in the deck corresponding to this number.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/card"
       }
-    },
-    "additionalProperties": false,
-    "required": [
-      "number",
-      "cards"
-    ]
-  }
+    }
+  },
+  "additionalProperties": false
 }
